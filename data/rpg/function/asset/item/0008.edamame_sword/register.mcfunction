@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"聖剣･",bold:0b},{"text":"ｴﾀﾞﾏﾒ",bold:1b},{"text":"リア",bold:0b}]
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"闇銀河戦士との戦いで、",color:"gray",italic:0b},{"text":"古代の勇者が使ったとされる剣。",color:"gray",italic:0b},{"text":"※実在の人物とは一切関係ありません。",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"闇銀河騎士との戦いで、",color:"gray",italic:0b},{"text":"古代の勇者が使ったとされる剣。",color:"gray",italic:0b},{"text":"※実在の人物とは一切関係ありません。",color:"gray",italic:0b}]
 
 # フィールド
     # レア度
