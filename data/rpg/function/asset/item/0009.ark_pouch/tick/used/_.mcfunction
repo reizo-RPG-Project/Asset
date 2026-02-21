@@ -4,7 +4,6 @@
 #
 # @within function rpg:asset/item/0009.ark_pouch/tick/_
 
-
 # お願いOMD!
 function #oh_my_dat:please
 
