@@ -4,9 +4,6 @@
 #
 # @public
 
-# 共通処理
-function rpg:asset/dungeon/.manager/common/door/close/_
-
 # ドアが開けられていないのなら動かない。
 execute if data storage rpg:dungeon 0001{Closed_Door:0b} run return 0
 
