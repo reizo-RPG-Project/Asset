@@ -14,6 +14,3 @@ execute if data storage rpg:dungeon 0001{Closed_Door:0b} run return 0
 # ドアを開けてないことを示す
 data modify storage rpg:dungeon 0001.Opend_Door set value 0b
 data modify storage rpg:dungeon 0001.Closed_Door set value 1b
-
-# シュルカー移動タイマーの終わり。
-scoreboard players set $0001.MoveWall.Col RPG.Dungeon -1
