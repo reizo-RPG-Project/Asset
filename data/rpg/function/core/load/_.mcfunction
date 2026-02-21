@@ -21,3 +21,7 @@
         scoreboard objectives add RPG.Item.0012.DEF_Math.Chest dummy
         scoreboard objectives add RPG.Item.0012.DEF_Math.Legs dummy
         scoreboard objectives add RPG.Item.0012.DEF_Math.Feet dummy
+        # ダンジョン
+            # Common
+            scoreboard objectives add RPG.Dungeon dummy
+        #
