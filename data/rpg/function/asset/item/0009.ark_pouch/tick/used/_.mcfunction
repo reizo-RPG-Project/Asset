@@ -20,6 +20,9 @@ playsound entity.experience_orb.pickup master @s ~ ~ ~ 0.3 2
 # Import
 data modify storage reizo_mcfunc_engin:item 0009.private.data.List append from entity @s Inventory
 
+# 残っているattributeを全て消去
+function rpg:asset/item/0009.ark_pouch/tick/used/clear_residual_attribute
+
 function rpg:asset/item/0009.ark_pouch/tick/used/clear
 
 # Export
