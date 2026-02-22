@@ -4,6 +4,9 @@
 #
 # @public
 
+# ドアがすでに開けられているのなら動かない
+execute if data storage rpg:dungeon 0001{Closed_Door:0b,Opend_Door:1b} run return 0
+
 # セット
 data modify storage rpg:dungeon 0001 set value {Closed_Door:0b,Opend_Door:1b}
 
