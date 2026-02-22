@@ -13,5 +13,5 @@
     data modify storage reizo_mcfunc_engin:object Register.Allow_Movement set value 0b
 
 # フィールド
-    # スポナーが敵対状態に入る範囲 Int型(パーティクルの発生が[dis=..5]なのでこの値は5以上が好ましい。)
+    # スポナーが敵対状態に入る範囲 Int型 (パーティクルの発生が[dis=..5]なのでこの値は5以上が好ましい。)
     # data modify storage reizo_mcfunc_engin:object Field.in_hostil.range set value 5
