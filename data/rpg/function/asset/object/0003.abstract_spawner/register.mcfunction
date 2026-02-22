@@ -11,3 +11,7 @@
     data modify storage reizo_mcfunc_engin:object Register.IsAbstract set value 1b
     # 動くことを許すか？ boolean型
     data modify storage reizo_mcfunc_engin:object Register.Allow_Movement set value 0b
+
+# フィールド
+    # スポナーが敵対状態に入る範囲 Int型
+    # data modify storage reizo_mcfunc_engin:object Field.in_hostil.range set value 0

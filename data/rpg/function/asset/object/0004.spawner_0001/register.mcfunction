@@ -11,3 +11,7 @@
     data modify storage reizo_mcfunc_engin:object Register.Final set value 1b
     # 継承されることを前提とした、抽象的なObjectであるか。
     data modify storage reizo_mcfunc_engin:object Register.IsAbstract set value 0b
+
+# フィールド
+    # スポナーが敵対状態に入る範囲 Int型
+    data modify storage reizo_mcfunc_engin:object Field.in_hostil.range set value 5
