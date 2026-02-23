@@ -13,7 +13,7 @@
     data modify storage reizo_mcfunc_engin:object Register.Allow_Movement set value 0b
 
 # フィールド
-    # 何回召喚できるか Int型
+    # 何回召喚できるか Int型 (-1にすることにより無限沸きに出来る。)
     # data modify storage reizo_mcfunc_engin:object Field.HP set value 1
     # 本気になるのか？ boolean型
     # data modify storage reizo_mcfunc_engin:object Field.Seriously set value 1b
