@@ -14,4 +14,4 @@
 
 # フィールド
     # スポナーが敵対状態に入る範囲 Int型
-    data modify storage reizo_mcfunc_engin:object Field.in_hostil.range set value 10
+    data modify storage reizo_mcfunc_engin:object Field.in_hostil.range set value 5
