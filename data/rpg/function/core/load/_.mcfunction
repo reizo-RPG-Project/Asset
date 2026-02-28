@@ -23,6 +23,7 @@
         # Object
         scoreboard objectives add RPG.Obj.0003.In_Hostil.Delay dummy
         scoreboard objectives add RPG.Obj.0003.HP dummy
+        scoreboard objectives add RPG.Obj.0006.PlayerGetCount dummy
         # Item
         scoreboard objectives add RPG.Item.0012.DEF_Math dummy
         scoreboard objectives add RPG.Item.0012.DEF_Math.Head dummy
