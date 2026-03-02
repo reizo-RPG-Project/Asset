@@ -6,15 +6,12 @@
 
 #> データ登録
     # 継承(オプション)
-    data modify storage reizo_mcfunc_engin:mob Register.Extends append value {ID:"0008.abstract_shop",namespace:"rpg"}
+    data modify storage reizo_mcfunc_engin:mob Register.Extends append value {ID:"0008.abstract_tubo_bito",namespace:"rpg"}
     # 継承されないかどうか。 boolean型
     data modify storage reizo_mcfunc_engin:mob Register.Final set value 1b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
-    # 名前 String型
-    data modify storage reizo_mcfunc_engin:mob Register.Name set value "壺人"
-    # 持っているアイテム String型
-        # head
-        data modify storage reizo_mcfunc_engin:mob Register.Head set value {id:"diamond_horse_armor",components:{item_model:"minecraft:mob/0009/items"}}
 
 #> フィールド
+    # 出すアイテム
+    data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0004.wooden_sword"]},{Rarity:2,List:["0016.stone_sword"]}]
