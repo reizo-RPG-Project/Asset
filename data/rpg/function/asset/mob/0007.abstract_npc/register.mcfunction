@@ -18,4 +18,4 @@
 
 #> フィールド
     # 話す内容 boolean型(もしかしたらListにして何Tickにどの会話が出るかをここから調整出来るかも。)
-    data modify storage reizo_mcfunc_engin:mob Field.Talk set value 1b
+    # data modify storage reizo_mcfunc_engin:mob Field.Talk set value 1b
