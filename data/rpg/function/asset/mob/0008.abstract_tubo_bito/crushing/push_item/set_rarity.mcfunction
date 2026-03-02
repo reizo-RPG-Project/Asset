@@ -11,4 +11,7 @@ execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:4}] i
 execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:5}] if predicate rpg:asset/mob/0008/rarity/5 run return run data modify storage reizo_mcfunc_engin:context this.Rarity set value 5
 
 # どこも引けなかった場合
-execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:1}] unless data storage reizo_mcfunc_engin:context this.Rarity run data modify storage reizo_mcfunc_engin:context this.Rarity set value 1
+execute unless data storage reizo_mcfunc_engin:context this{Recursive:1b} if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:1}] unless data storage reizo_mcfunc_engin:context this.Rarity run return run data modify storage reizo_mcfunc_engin:context this.Rarity set value 1
+
+# レア度1のアイテムがなかった場合再帰する。
+execute unless data storage reizo_mcfunc_engin:context this.Rarity run function rpg:asset/mob/0008.abstract_tubo_bito/crushing/push_item/set_rarity
