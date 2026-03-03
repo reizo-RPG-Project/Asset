@@ -25,8 +25,6 @@ execute store result storage reizo_mcfunc_engin:context this.Items.Roll int 1 ru
 # お掃除
 scoreboard players reset $Index RPG.Temp
 
-tellraw @a {"storage":"reizo_mcfunc_engin:context",nbt:"this.Items.Roll"}
-
 # アイテムのIDをリストから取得
 function rpg:asset/mob/0008.abstract_tubo_bito/crushing/push_item/get_data/id.m with storage reizo_mcfunc_engin:context this.Items
 

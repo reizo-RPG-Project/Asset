@@ -7,8 +7,6 @@
 # もらったアイテムが壺でなければ動作を止める
 execute unless data entity @n[type=item,distance=..1.5] Item{id:"minecraft:decorated_pot"} run return 0
 
-tellraw @a "!"
-
 # どのアイテムの種類のツボか確認する。
     # データ取得
     data modify storage reizo_mcfunc_engin:context this.TypeList set from entity @n[type=item,distance=..1.5] Item.components."minecraft:pot_decorations"
