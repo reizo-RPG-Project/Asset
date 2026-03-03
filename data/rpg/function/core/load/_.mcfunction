@@ -20,7 +20,7 @@
         scoreboard objectives add RPG.Mob.0005.Reset_Time dummy
         scoreboard objectives add RPG.Mob.0005.Summon_Time dummy
         scoreboard objectives add RPG.Mob.0005.Summon dummy
-        scoreboard objectives add RPG.Mob.0007.Talk dummy
+        scoreboard objectives add RPG.Mob.0009.Talk dummy
         # Object
         scoreboard objectives add RPG.Obj.0003.In_Hostil.Delay dummy
         scoreboard objectives add RPG.Obj.0003.HP dummy

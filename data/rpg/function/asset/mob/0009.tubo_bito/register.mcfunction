@@ -13,6 +13,10 @@
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
 
 #> フィールド
+    # 話す内容 boolean型(もしかしたらListにして何Tickにどの会話が出るかをここから調整出来るかも。)
+    data modify storage reizo_mcfunc_engin:mob Field.Talk set value 1b
+    # TalkスコアのID String型
+    data modify storage reizo_mcfunc_engin:mob Field.Score set value "0009"
     # 出すアイテム
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0004.wooden_sword"]},{Rarity:2,List:["0016.stone_sword"]}]
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0021.wooden_wand"]},{Rarity:2,List:["0025.amethyst_wand"]}]
