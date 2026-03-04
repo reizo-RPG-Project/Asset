@@ -7,16 +7,16 @@
 # もらったアイテムが壺でなければ動作を止める
 execute unless data entity @n[type=item,distance=..1.5] Item{id:"minecraft:decorated_pot"} run return 0
 
-# どのアイテムの種類のツボか確認する。
-    # データ取得
-    data modify storage reizo_mcfunc_engin:context this.TypeList set from entity @n[type=item,distance=..1.5] Item.components."minecraft:pot_decorations"
-    # データフィルター
-    function rpg:asset/mob/0008.abstract_tubo_bito/crushing/filter/_
-    # 出てきたタイプのデータを取得
-    function rpg:asset/mob/0008.abstract_tubo_bito/crushing/get_data/_
-    # データからアイテムを排出する。
-    function rpg:asset/mob/0008.abstract_tubo_bito/crushing/push_item/_
-    # データ例: [[{Rarity:1,List:["0004.wooden_sword"]},{Rarity:2,List:["0016.stone_sword"]}],[{Rarity:1,List:["0021.wooden_wand"]}]]
+# データ取得
+data modify storage reizo_mcfunc_engin:context this.TypeList set from entity @n[type=item,distance=..1.5] Item.components."minecraft:pot_decorations"
+
+# Forライブラリ
+    # 再帰回数
+    execute store result storage reizo_mcfunc_engin:lib In.For.LoopCount int 1 run data get entity @n[type=item,distance=..1.5] Item.count
+    # 実行関数
+    data modify storage reizo_mcfunc_engin:lib In.For.func set value "rpg:asset/mob/0008.abstract_tubo_bito/crushing/loop"
+    # 実行
+    function reizo_libs:for/_
 
 # 壺を消す
 kill @n[type=item,distance=..1.5]
