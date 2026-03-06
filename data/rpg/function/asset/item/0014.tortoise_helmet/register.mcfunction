@@ -22,7 +22,5 @@
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 3
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
-    # ComboID
-    data modify storage reizo_mcfunc_engin:item Field.ComboID set value 2
     # DEF
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 25
