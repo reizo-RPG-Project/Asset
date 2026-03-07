@@ -21,6 +21,6 @@
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 4
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # 魔法攻撃力
-    data modify storage reizo_mcfunc_engin:item Field.INT set value 19
+    data modify storage reizo_mcfunc_engin:item Field.INT set value 27
     # 攻撃速度
     data modify storage reizo_mcfunc_engin:item Field.AttackSpeed set value -1
