@@ -19,6 +19,6 @@
     data modify storage reizo_mcfunc_engin:mob Field.Score set value "0009"
     # 出すアイテム
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0004.wooden_sword"]},{Rarity:2,List:["0016.stone_sword","0030.copper_sword"]}]
-    data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0021.wooden_wand"]},{Rarity:2,List:["0025.amethyst_wand"]}]
+    data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0021.wooden_wand"]},{Rarity:2,List:["0025.amethyst_wand","0033.resin_wand"]}]
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0022.leather_leggings","0023.leather_boots"]},{Rarity:3,List:["0031.copper_helmet"]},{Rarity:3,List:["0014.tortoise_helmet"]}]
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0007.ramune"]},{Rarity:2,List:["0006.fuji_apple","0019.carrot"]}]
