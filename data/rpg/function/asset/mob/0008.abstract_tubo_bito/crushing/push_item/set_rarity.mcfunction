@@ -5,6 +5,7 @@
 # @within function rpg:asset/mob/0008.abstract_tubo_bito/crushing/push_item/_
 
 # セット
+execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:1}] if predicate rpg:asset/mob/0008/rarity/1 run return run data modify storage reizo_mcfunc_engin:context this.Rarity set value 1
 execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:2}] if predicate rpg:asset/mob/0008/rarity/2 run return run data modify storage reizo_mcfunc_engin:context this.Rarity set value 2
 execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:3}] if predicate rpg:asset/mob/0008/rarity/3 run return run data modify storage reizo_mcfunc_engin:context this.Rarity set value 3
 execute if data storage reizo_mcfunc_engin:context this.Items.Type[{Rarity:4}] if predicate rpg:asset/mob/0008/rarity/4 run return run data modify storage reizo_mcfunc_engin:context this.Rarity set value 4
