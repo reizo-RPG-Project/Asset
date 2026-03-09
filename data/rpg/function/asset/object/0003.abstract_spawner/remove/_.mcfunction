@@ -10,6 +10,9 @@ setblock ~ ~ ~ air
 # ディスプレイも消す
 execute at @e[type=block_display,distance=..100] if score @s reizo_mcfunc_Engin.ScoreID = @n reizo_mcfunc_Engin.ScoreID run kill @n[type=block_display]
 
+# アイテムを落とす
+function reizo_mcfunc_engin:api/call/_protected.m {Type:"object",Method:"drop/_"}
+
 # 死ぬ
 kill @s
 
