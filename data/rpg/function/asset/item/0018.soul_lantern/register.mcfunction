@@ -15,8 +15,6 @@
     data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"ﾀﾏｼｲ",bold:1b},{"text":"の",bold:0b},{"text":"ﾗﾝ･ﾀｧﾝ",bold:1b}]
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"ﾗﾝ･ﾀｧﾝのﾀﾏｼｲの込められたランタン",color:"gray",italic:0b},{"text":"一度だけ死を無効可できる。",color:"gray",italic:0b}]
-    # アイテムを持っていない場合でも動作させるかどうか。 boolean型
-    data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
 
 # フィールド
     # レア度
