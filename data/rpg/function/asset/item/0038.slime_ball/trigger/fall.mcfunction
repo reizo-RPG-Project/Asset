@@ -29,3 +29,5 @@ execute if score @s reizo_mcfunc_Engin.Sneaking matches 1.. run return 0
     data modify storage reizo_mcfunc_engin:context origin_data set value {ID:"0038.slime_ball",namespace:"rpg"}
     # メソッド実行
     function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"bounce/_"}
+    # お掃除
+    data remove storage reizo_mcfunc_engin:context origin_data
