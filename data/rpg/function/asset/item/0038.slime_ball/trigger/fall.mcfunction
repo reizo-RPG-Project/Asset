@@ -24,27 +24,8 @@ execute if score @s reizo_mcfunc_Engin.Sneaking matches 1.. run return 0
     # お掃除
     data remove storage reizo_mcfunc_engin:context this.Inventory
 
-# VecYを取得
-    # お願いOMD!
-    function #oh_my_dat:please
-    # OUT OMD
-    data modify storage reizo_mcfunc_engin:context this set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Item.0038.this
-
-# VecYに-1をかけてベクトルを反転させる(本来は-1だがhb.motionの仕様上10000倍にしなければならないので-10000倍に)
-execute store result storage reizo_mcfunc_engin:context this.VecY double 1 run data get storage reizo_mcfunc_engin:context this.VecY -10000
-
-# プレイヤーに適応させる
-    # X,Zは変更しないので0に
-    scoreboard players set $x hb.Motion 0
-    scoreboard players set $z hb.Motion 0
-    # ライブラリ引数に反転させたベクトルを渡す
-    execute store result score $y hb.Motion run data get storage reizo_mcfunc_engin:context this.VecY
-    # ライブラリ使用
-    function #p_motion:xyz
-
-# お掃除
-data remove storage reizo_mcfunc_engin:context this
-
-# VFX
-    particle item_slime ~ ~ ~ 0.3 0.0 0.3 0 10
-    playsound block.slime_block.fall
+# bounceメソッド実行
+    # 引数が無いので自分でセットする
+    data modify storage reizo_mcfunc_engin:context origin_data set value {ID:"0038.slime_ball",namespace:"rpg"}
+    # メソッド実行
+    function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"bounce/_"}
