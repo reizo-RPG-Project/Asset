@@ -7,6 +7,9 @@
 # 進捗剥奪
 advancement revoke @s only rpg:asset/item/0038/fall
 
+# しゃがんでいるのなら跳ねない
+execute if score @s reizo_mcfunc_Engin.Sneaking matches 1.. run return 0
+
 # このアイテムを持っていなければ動作終了
     # データ取得
     data modify storage reizo_mcfunc_engin:context this.Inventory.9 set from entity @s Inventory[{Slot:9b}]
@@ -41,3 +44,7 @@ execute store result storage reizo_mcfunc_engin:context this.VecY double 1 run d
 
 # お掃除
 data remove storage reizo_mcfunc_engin:context this
+
+# VFX
+    particle item_slime ~ ~ ~ 0.3 0.0 0.3 0 10
+    playsound block.slime_block.fall
