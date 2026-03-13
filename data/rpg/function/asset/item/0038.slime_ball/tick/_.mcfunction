@@ -8,7 +8,7 @@
 attribute @s safe_fall_distance base set 100
 
 # 地に足がついている場合は動作を終了する
-execute if entity @s[tag=reizo_mcfunc_Engin.Is_on_Ground] if data entity @s {fall_distance:0.0d} run return 0
+execute if block ~ ~-1 ~ #reizo_mcfunc_engin:no_col if entity @s[tag=reizo_mcfunc_Engin.Is_on_Ground] if data entity @s {fall_distance:0.0d} run return 0
 
 # お願いOMD!
 function #oh_my_dat:please
