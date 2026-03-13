@@ -16,7 +16,7 @@
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"跳ね返れ！飛び回れ！",color:"gray",italic:0b}]
     # アイテムを持っていない場合でも動作させるかどうか。 boolean型
-    # data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
+    data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
 
 # フィールド
     # レア度
