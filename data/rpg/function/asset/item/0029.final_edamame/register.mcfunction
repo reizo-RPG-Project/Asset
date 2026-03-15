@@ -26,3 +26,5 @@
     data modify storage reizo_mcfunc_engin:item Field.Recovery set value 1000000000
     # いつでも食べられるかどうか
     data modify storage reizo_mcfunc_engin:item Field.CanAlwaysEat set value 0b
+    # FX
+    data modify storage reizo_mcfunc_engin:item Field.FX.ID set value "0001"

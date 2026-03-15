@@ -24,3 +24,5 @@
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # DEF
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 25
+    # FX
+    data modify storage reizo_mcfunc_engin:item Field.FX.ID set value "0001"
