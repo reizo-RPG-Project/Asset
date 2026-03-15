@@ -16,8 +16,6 @@
     data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"甘いハニカム"}]
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"あああああ 甘すぎ！",color:"gray",italic:0b}]
-    # アイテムを持っていない場合でも動作させるかどうか。 boolean型
-    # data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
 
 # フィールド
     # レア度
