@@ -39,11 +39,6 @@
         scoreboard objectives add RPG.Obj.0006.PlayerGetCount dummy
         # Item
         scoreboard objectives add RPG.Item.0010.Status dummy
-        scoreboard objectives add RPG.Item.0012.DEF_Math dummy
-        scoreboard objectives add RPG.Item.0012.DEF_Math.Head dummy
-        scoreboard objectives add RPG.Item.0012.DEF_Math.Chest dummy
-        scoreboard objectives add RPG.Item.0012.DEF_Math.Legs dummy
-        scoreboard objectives add RPG.Item.0012.DEF_Math.Feet dummy
         scoreboard objectives add RPG.Item.0040.Temp dummy
         # ダンジョン
             # Common
