@@ -4,9 +4,6 @@
 #
 # @within function rpg:asset/item/0040.abstract_status_up/register
 
-# タグが無いなら動作終了
-# execute if entity @s[tag=!]
-
 # リセット
     execute if data storage reizo_mcfunc_engin:context data.Field.HP_MAX unless score @s RPG.HP_MAX = @s RPG.OriginHP_MAX run function rpg:asset/item/0040.abstract_status_up/not_hold/status/hp_max/_
     execute if data storage reizo_mcfunc_engin:context data.Field.STR unless score @s RPG.STR = @s RPG.OriginSTR run function rpg:asset/item/0040.abstract_status_up/not_hold/status/str/_
