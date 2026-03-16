@@ -1,11 +1,8 @@
-#> rpg:asset/item/0040.abstract_status_up/tick/init/int/_
+#> rpg:asset/item/0040.abstract_status_up/status_up/int/_
 #
 # 
 #
-# @within function rpg:asset/item/0040.abstract_status_up/tick/init/_
-
-# お掃除
-execute unless score @s RPG.INT = @s RPG.OriginINT run scoreboard players operation @s RPG.INT = @s RPG.OriginINT
+# @within function rpg:asset/item/0040.abstract_status_up/status_up/_
 
 # フィールドをスコアに
 execute store result score $INT RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context data.Field.INT

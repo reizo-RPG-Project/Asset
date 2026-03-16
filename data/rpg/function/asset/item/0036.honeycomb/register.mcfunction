@@ -22,4 +22,4 @@
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 2
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # 最大体力
-    data modify storage reizo_mcfunc_engin:item Field.HP set value 20
+    data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 20
