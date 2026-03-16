@@ -12,3 +12,6 @@ scoreboard players operation @s RPG.INT += $INT RPG.Item.0040.Temp
 
 # お掃除
 scoreboard players reset $INT RPG.Item.0040.Temp
+
+# 実行したことを宣言
+tag @s add RPG.Item.0040.StatusUpped.INT
