@@ -51,3 +51,8 @@
     execute unless score @s RPG.STR = @s RPG.OriginSTR run scoreboard players operation @s RPG.STR = @s RPG.OriginSTR
     execute unless score @s RPG.INT = @s RPG.OriginINT run scoreboard players operation @s RPG.INT = @s RPG.OriginINT
     execute unless score @s RPG.DEF = @s RPG.OriginDEF run scoreboard players operation @s RPG.DEF = @s RPG.OriginDEF
+
+# OMD
+    # Item
+        # 0040
+        data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Item.0040
