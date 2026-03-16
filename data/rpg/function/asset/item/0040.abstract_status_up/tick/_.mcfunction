@@ -4,5 +4,5 @@
 #
 # @within function reizo_mcfunc_engin:asset/item/.manager/tick/run.m
 
-# Init
-execute if entity @s[tag=!RPG.Item.0040.Init] run function rpg:asset/item/0040.abstract_status_up/tick/init/_
+# ステータス上昇処理
+function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"status_up/_"}

@@ -1,4 +1,4 @@
-#> rpg:asset/item/0036.honeycomb/register
+#> rpg:asset/item/test.add_hp/register
 #
 # 
 #
@@ -13,13 +13,13 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"甘いハニカム"}]
+    data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"ADD HP"}]
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"あああああ 甘すぎ！",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"ARTIFACT TEST ITEM!",color:"gray",italic:0b}]
 
 # フィールド
     # レア度
-    data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 2
+    data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 0
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # 最大体力
-    data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 20
+    data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 1000
