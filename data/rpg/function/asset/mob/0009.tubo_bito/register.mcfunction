@@ -11,6 +11,8 @@
     data modify storage reizo_mcfunc_engin:mob Register.Final set value 1b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
+    # 名前 String型
+    data modify storage reizo_mcfunc_engin:mob Register.Name set value "\uE005壺人"
 
 #> フィールド
     # 話す内容 boolean型(もしかしたらListにして何Tickにどの会話が出るかをここから調整出来るかも。)

@@ -5,3 +5,4 @@
 # @within function reizo_mcfunc_engin:asset/mob/.manager/init/run.m
 
 # Init処理
+data modify entity @s NoAI set value 1b
