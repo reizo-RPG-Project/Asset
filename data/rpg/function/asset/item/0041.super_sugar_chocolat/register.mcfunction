@@ -1,4 +1,4 @@
-#> rpg:asset/item/0037.grand_steak/register
+#> rpg:asset/item/0041.super_sugar_chocolat/register
 #
 # 
 #
@@ -12,9 +12,9 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"グランド・ステーキ"}
+    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"過糖ショコラ"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"見ているだけで腹が満たされる気がする...",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"糖尿病まっしぐら！！！",color:"gray",italic:0b}]
 
 # フィールド
     # レア度
@@ -23,6 +23,6 @@
     # カウント
     data modify storage reizo_mcfunc_engin:item Field.Count set value 64
     # 回復量
-    data modify storage reizo_mcfunc_engin:item Field.Recovery set value 21
+    data modify storage reizo_mcfunc_engin:item Field.Recovery set value 15
     # いつでも食べられるかどうか
     data modify storage reizo_mcfunc_engin:item Field.CanAlwaysEat set value 0b
