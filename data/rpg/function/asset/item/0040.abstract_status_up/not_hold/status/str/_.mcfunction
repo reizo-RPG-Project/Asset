@@ -8,7 +8,7 @@
 function #oh_my_dat:please
 
 # データの削除
-function rpg:asset/item/0040.abstract_status_up/common/str/del.m with storage reizo_mcfunc_engin:context origin_data
+function rpg:asset/item/0040.abstract_status_up/common/str/del.m with storage reizo_mcfunc_engin:context origin_Args
 
 # リセット
 scoreboard players operation @s RPG.STR -= $STR RPG.Item.0040.Temp

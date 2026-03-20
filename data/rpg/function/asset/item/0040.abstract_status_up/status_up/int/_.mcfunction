@@ -8,7 +8,7 @@
 function rpg:asset/item/0040.abstract_status_up/common/int/pull
 
 # このIDのデータがあるかチェック
-function rpg:asset/item/0040.abstract_status_up/status_up/int/check.m with storage reizo_mcfunc_engin:context origin_data
+function rpg:asset/item/0040.abstract_status_up/status_up/int/check.m with storage reizo_mcfunc_engin:context origin_Args
 
 # このIDはすでに使われているので動作を終了
 execute if data storage reizo_mcfunc_engin:context this{End:1b} run return run data remove storage reizo_mcfunc_engin:context this.End

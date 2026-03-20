@@ -17,17 +17,17 @@ execute if score @s reizo_mcfunc_Engin.Sneaking matches 1.. run return 0
     data modify storage reizo_mcfunc_engin:context this.Inventory.11 set from entity @s Inventory[{Slot:11b}]
     # どこにもアイテムのデータが無ければ動作を終了する
     execute \
-    unless data storage reizo_mcfunc_engin:context this.Inventory{9:{id:"minecraft:diamond_horse_armor",components:{"minecraft:custom_data":{Item:{ID:"0038.slime_ball"}}}}} \
-    unless data storage reizo_mcfunc_engin:context this.Inventory{10:{id:"minecraft:diamond_horse_armor",components:{"minecraft:custom_data":{Item:{ID:"0038.slime_ball"}}}}} \
-    unless data storage reizo_mcfunc_engin:context this.Inventory{11:{id:"minecraft:diamond_horse_armor",components:{"minecraft:custom_data":{Item:{ID:"0038.slime_ball"}}}}} run \
+    unless data storage reizo_mcfunc_engin:context this.Inventory{9:{id:"minecraft:diamond_horse_armor",components:{"minecraft:custom_data":{Item:{Args:{ID:"0038.slime_ball"}}}}}} \
+    unless data storage reizo_mcfunc_engin:context this.Inventory{10:{id:"minecraft:diamond_horse_armor",components:{"minecraft:custom_data":{Item:{Args:{ID:"0038.slime_ball"}}}}}} \
+    unless data storage reizo_mcfunc_engin:context this.Inventory{11:{id:"minecraft:diamond_horse_armor",components:{"minecraft:custom_data":{Item:{Args:{ID:"0038.slime_ball"}}}}}} run \
     return 0
     # お掃除
     data remove storage reizo_mcfunc_engin:context this.Inventory
 
 # bounceメソッド実行
     # 引数が無いので自分でセットする
-    data modify storage reizo_mcfunc_engin:context origin_data set value {ID:"0038.slime_ball",namespace:"rpg"}
+    data modify storage reizo_mcfunc_engin:context origin_Args set value {ID:"0038.slime_ball",namespace:"rpg"}
     # メソッド実行
     function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"bounce/_"}
     # お掃除
-    data remove storage reizo_mcfunc_engin:context origin_data
+    data remove storage reizo_mcfunc_engin:context origin_Args

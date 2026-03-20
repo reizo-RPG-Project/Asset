@@ -8,7 +8,7 @@
 data modify storage reizo_mcfunc_engin:context this.List.HP_MAX append value {}
 
 # データを入れる
-    data modify storage reizo_mcfunc_engin:context this.List.HP_MAX[-1].ID set from storage reizo_mcfunc_engin:context origin_data.ID
+    data modify storage reizo_mcfunc_engin:context this.List.HP_MAX[-1].ID set from storage reizo_mcfunc_engin:context origin_Args.ID
     data modify storage reizo_mcfunc_engin:context this.List.HP_MAX[-1].Value set from storage reizo_mcfunc_engin:context data.Field.HP_MAX
 
 # OMDにコピー
