@@ -10,9 +10,3 @@ data modify storage reizo_mcfunc_engin:context this.List.INT append value {}
 # データを入れる
     data modify storage reizo_mcfunc_engin:context this.List.INT[-1].ID set from storage reizo_mcfunc_engin:context origin_Args.ID
     data modify storage reizo_mcfunc_engin:context this.List.INT[-1].Value set from storage reizo_mcfunc_engin:context data.Field.INT
-
-# OMDにコピー
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Item.0040.List.INT set from storage reizo_mcfunc_engin:context this.List.INT
-
-# お掃除
-    data remove storage reizo_mcfunc_engin:context this.List.INT

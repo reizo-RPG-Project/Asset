@@ -4,9 +4,6 @@
 #
 # @within function rpg:asset/item/0040.abstract_status_up/status_up/_
 
-# データを引き出す
-function rpg:asset/item/0040.abstract_status_up/common/def/pull
-
 # このIDのデータがあるかチェック
 function rpg:asset/item/0040.abstract_status_up/status_up/def/check.m with storage reizo_mcfunc_engin:context origin_Args
 
