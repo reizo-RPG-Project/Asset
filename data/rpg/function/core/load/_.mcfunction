@@ -24,6 +24,7 @@
 # スコア作成
     # アセット
         # Mob
+        scoreboard objectives add RPG.Mob.0001.ID dummy
         scoreboard objectives add RPG.Mob.0002.SeriouslyValue dummy
         scoreboard objectives add RPG.Mob.0002.AITimer dummy
         scoreboard objectives add RPG.Mob.0005.Timer dummy
