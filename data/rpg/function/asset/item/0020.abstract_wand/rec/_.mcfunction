@@ -11,7 +11,7 @@
 particle witch ~ ~ ~
 
 # 当たり判定タグつけ
-execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=reizo_mcfunc_Engin.Mob,tag=RPG.Mob.0001.Enemy,dx=0,type=!player] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run tag @s add RPG.Mob.0001.Hit
+execute positioned ~-0.25 ~-0.25 ~-0.25 as @e[tag=reizo_mcfunc_Engin.Mob,tag=RPG.Mob.0002.Enemy,dx=0,type=!player] positioned ~-0.5 ~-0.5 ~-0.5 if entity @s[dx=0] run tag @s add RPG.Mob.0001.Hit
 
 # リーチの限界まで再帰 20ブロック
     execute positioned ^ ^ ^0.5 if entity @s[distance=..19.5] if block ~ ~ ~ #reizo_mcfunc_engin:no_col run return run function rpg:asset/item/0020.abstract_wand/rec/_

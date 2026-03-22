@@ -17,5 +17,5 @@ attribute @s scale base set 0.7
     # ここが動いているということは45%を引いたということ。なので召喚！
     function reizo_mcfunc_engin:api/mob/summon.m {ID:"0006.zombie_kid",namespace:"rpg"}
     # 乗せる
-    ride @n[type=zombie,tag=reizo_mcfunc_Engin.Mob,tag=RPG.Mob.0001.Enemy] mount @s
+    ride @n[type=zombie,tag=reizo_mcfunc_Engin.Mob,tag=RPG.Mob.0002.Enemy] mount @s
     tellraw @a "RIDE!!!"

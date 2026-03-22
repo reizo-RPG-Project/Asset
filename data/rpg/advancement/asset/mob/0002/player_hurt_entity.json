@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "requirements":{
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "entity": {
+                    "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:asset/mob/0002.abstract_enemy/trigger/player_hurt_entiy"
+    }
+}
