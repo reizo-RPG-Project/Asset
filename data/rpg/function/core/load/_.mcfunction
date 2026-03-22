@@ -6,20 +6,23 @@
 
 #> Dev
     # Core側のスコアを一時的に記述
-    scoreboard objectives add RPG.Temp dummy
-    scoreboard objectives add RPG.Const dummy
-        # ステータス
-        scoreboard objectives add RPG.HP dummy
-        scoreboard objectives add RPG.HP_MAX dummy
-        scoreboard objectives add RPG.OriginHP_MAX dummy
-        scoreboard objectives add RPG.HP_regen dummy
-        scoreboard objectives add RPG.HP_Timer dummy
-        scoreboard objectives add RPG.STR dummy
-        scoreboard objectives add RPG.OriginSTR dummy
-        scoreboard objectives add RPG.INT dummy
-        scoreboard objectives add RPG.OriginINT dummy
-        scoreboard objectives add RPG.DEF dummy
-        scoreboard objectives add RPG.OriginDEF dummy
+        # Sys
+        scoreboard objectives add RPG.Temp dummy
+        scoreboard objectives add RPG.Const dummy
+            # ステータス
+            scoreboard objectives add RPG.HP dummy
+            scoreboard objectives add RPG.HP_MAX dummy
+            scoreboard objectives add RPG.OriginHP_MAX dummy
+            scoreboard objectives add RPG.HP_regen dummy
+            scoreboard objectives add RPG.HP_Timer dummy
+            scoreboard objectives add RPG.STR dummy
+            scoreboard objectives add RPG.OriginSTR dummy
+            scoreboard objectives add RPG.INT dummy
+            scoreboard objectives add RPG.OriginINT dummy
+            scoreboard objectives add RPG.DEF dummy
+            scoreboard objectives add RPG.OriginDEF dummy
+        # その他
+        scoreboard objectives add RPG.DMG dummy
 
 # スコア作成
     # アセット
