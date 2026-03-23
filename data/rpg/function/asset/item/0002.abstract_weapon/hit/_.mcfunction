@@ -24,5 +24,6 @@ function rpg:asset/item/0002.abstract_weapon/hit/dmg_correction/_
     # TODO:いつかprojectileもたせ！
 
 # お掃除
-tag @s remove This
-scoreboard players reset $Item.0002.Hit.Weapon.Dmg
+    tag @s remove This
+    scoreboard players reset $Item.0002.Hit.Weapon.Dmg RPG.Temp
+    tag @p[tag=RPG.Attacker,tag=reizo_mcfunc_Engin.Motion.Attacker,distance=0] remove reizo_mcfunc_Engin.Motion.Attacker
