@@ -8,8 +8,8 @@
 tag @s add RPG.Attacker
 
 # どれくらい貯めたか検知
-    execute if predicate rpg:click_detection/charge run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"charged/_"}
-    execute if predicate rpg:click_detection/uncharge run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"uncharged/_"}
+    execute if entity @s[advancements={rpg:asset/item/0002/click_detection={charged=true}}] run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"charged/_"}
+    execute if entity @s[advancements={rpg:asset/item/0002/click_detection={uncharged=true}}] run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"uncharged/_"}
 
 # 当たり判定処理
 execute anchored eyes positioned ^ ^ ^ run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"rec/_"}
@@ -20,6 +20,6 @@ execute as @e[tag=reizo_mcfunc_Engin.Mob,tag=RPG.Mob.0002.Enemy,tag=RPG.Mob.0002
 # お掃除
     tag @s remove RPG.Input.IsClicked
     tag @s remove RPG.Attacker
-    advancement revoke @s only rpg:click_detection
+    advancement revoke @s only rpg:asset/item/0002/click_detection
 
 # tellraw @a [{"selector":"@s",color:"gold"},{"text":"はクリックした！",color:"white"}]
