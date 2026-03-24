@@ -6,6 +6,3 @@
 
 # 使用
 execute if score @s reizo_mcfunc_Engin.using_Item matches 1 run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"used/_"}
-
-# お掃除
-data remove storage reizo_mcfunc_engin:item 0005
