@@ -11,6 +11,9 @@ data modify storage reizo_mcfunc_engin:context this.SetItem.Args set from storag
     data modify storage reizo_mcfunc_engin:context this.SetItem.Args.namespace set value "rpg"
     function reizo_mcfunc_engin:api/item/box.m with storage reizo_mcfunc_engin:context this.SetItem.Args
 
+# countをセット
+data modify block 10000 0 10000 Items[0].count set from storage reizo_mcfunc_engin:context this.SetItem.Args.count
+
 # アイテムを入れるべき位置に移動
 function rpg:asset/object/0009.loot_chest/tick/open/init/set_item/move.m with storage reizo_mcfunc_engin:context this.SetItem.Args
 
