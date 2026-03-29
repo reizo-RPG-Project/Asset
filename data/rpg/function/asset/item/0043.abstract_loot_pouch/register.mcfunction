@@ -17,6 +17,8 @@
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"いいものが出る...かも！？",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value [mainhand]
+    # アイテムを持っていない場合でも動作させるかどうか。 boolean型
+    data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
 
 #> フィールド
     # 出るアイテム
