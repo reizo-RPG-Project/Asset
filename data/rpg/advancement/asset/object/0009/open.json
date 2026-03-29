@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement": {
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "chest_minecart",
+                    "nbt": "{Tags:[\"RPG.Obj.0009.Chest\"]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:asset/object/0009.loot_chest/trigger/open"
+    }
+}
