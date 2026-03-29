@@ -13,8 +13,5 @@ execute if data storage reizo_mcfunc_engin:context this.SetItem.data run functio
 # 取得したデータからアイテムのデータを決める
 function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/push/_
 
-# お掃除
-data remove storage reizo_mcfunc_engin:context this.SetItem
-
 # 値が0になるまで再帰
 execute if score $Item.0043.SetItem.Rolls RPG.Temp matches 1.. run function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/loop

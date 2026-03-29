@@ -17,7 +17,7 @@
     data modify storage reizo_mcfunc_engin:item Field.Pools set value \
     [\
         {\
-            Rolls:1,\
+            Rolls:5,\
             Entries:[\
                 {\
                     Weight: 4,\
@@ -42,7 +42,7 @@
             ]\
         },\
         {\
-            Rolls:1,\
+            Rolls:5,\
             Entries:[\
                 {\
                     Weight: 10,\
@@ -67,7 +67,7 @@
             ]\
         },\
         {\
-            Rolls:1,\
+            Rolls:5,\
             Entries:[\
                 {\
                     Weight: 10,\
@@ -92,7 +92,7 @@
             ]\
         },\
         {\
-            Rolls:1,\
+            Rolls:5,\
             Entries:[\
                 {\
                     Weight: 3,\
