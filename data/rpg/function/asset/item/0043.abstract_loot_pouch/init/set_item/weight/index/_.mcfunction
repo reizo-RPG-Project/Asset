@@ -10,11 +10,5 @@ execute if data storage reizo_mcfunc_engin:context this.SetItem.PushData run ret
 # ランダムに生成された値がスコアに入っていない場合、取得する。
 execute store result score $Item.0043.SetItem.Weight_Random RPG.Temp run data get storage reizo_mcfunc_engin:context this.SetItem.Weight.Random.result
 
-tellraw @a {"score":{name:"$Item.0043.SetItem.Weight_Random",objective:"RPG.Temp"},color:"green"}
-tellraw @a {"score":{name:"$Item.0043.SetItem.Weight_Sum",objective:"RPG.Temp"}}
-
 # Sumがrより小さくなったらそこのデータを取得する
 execute if score $Item.0043.SetItem.Weight_Random RPG.Temp < $Item.0043.SetItem.Weight_Sum RPG.Temp run data modify storage reizo_mcfunc_engin:context this.SetItem.PushData set from storage reizo_mcfunc_engin:context this.SetItem.Weight.data.Entries[0]
-
-tellraw @a {"storage":"reizo_mcfunc_engin:context",nbt:"this.SetItem.PushData"}
-tellraw @a {"score":{name:"$Item.0043.SetItem.Rolls",objective:"RPG.Temp"},color:"red"}
