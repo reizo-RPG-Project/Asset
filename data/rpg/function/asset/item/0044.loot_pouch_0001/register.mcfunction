@@ -17,55 +17,35 @@
     data modify storage reizo_mcfunc_engin:item Field.Pools set value \
     [\
         {\
-            Rolls:10,\
+            Rolls:8,\
             Entries:[\
                 {\
-                    Weight: 8,\
+                    Weight: 4,\
                     ID: "0006.fuji_apple",\
                     count: {min:1,max:5}\
                 },\
                 {\
-                    Weight: 12,\
+                    Weight: 6,\
                     ID: "0007.ramune",\
                     count: {min:2,max:4}\
                 },\
                 {\
-                    Weight: 4,\
+                    Weight: 2,\
                     ID: "0019.carrot",\
                     count: {min:1,max:3}\
                 },\
                 {\
-                    Weight: 2,\
+                    Weight: 1,\
                     ID: "0037.grand_steak",\
                     count: {min:1,max:2}\
-                },\
+                }\
+            ]\
+        },\
+        {\
+            Rolls:1,\
+            Entries:[\
                 {\
-                    Weight: 8,\
-                    ID: "0022.leather_leggings",\
-                    count: 1\
-                },\
-                {\
-                    Weight: 9,\
-                    ID: "0023.leather_boots",\
-                    count: 1\
-                },\
-                {\
-                    Weight: 5,\
-                    ID: "0031.copper_helmet",\
-                    count: 1\
-                },\
-                {\
-                    Weight: 5,\
-                    ID: "0032.copper_chest",\
-                    count: 1\
-                },\
-                {\
-                    Weight: 4,\
-                    ID: "0014.tortoise_helmet",\
-                    count: 1\
-                },\
-                {\
-                    Weight: 8,\
+                    Weight: 10,\
                     ID: "0016.stone_sword",\
                     count: 1\
                 },\
@@ -75,12 +55,17 @@
                     count: 1\
                 },\
                 {\
-                    Weight: 3,\
+                    Weight: 4,\
                     ID: "0017.iron_sword",\
                     count: 1\
-                },\
+                }\
+            ]\
+        },\
+        {\
+            Rolls:1,\
+            Entries:[\
                 {\
-                    Weight: 9,\
+                    Weight: 10,\
                     ID: "0025.amethyst_wand",\
                     count: 1\
                 },\
@@ -90,8 +75,38 @@
                     count: 1\
                 },\
                 {\
-                    Weight: 3,\
+                    Weight: 4,\
                     ID: "0026.echo_wand",\
+                    count: 1\
+                }\
+            ]\
+        },\
+        {\
+            Rolls:1,\
+            Entries:[\
+                {\
+                    Weight: 3,\
+                    ID: "0022.leather_leggings",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 3,\
+                    ID: "0023.leather_boots",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 2,\
+                    ID: "0031.copper_helmet",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 2,\
+                    ID: "0032.copper_chest",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 1,\
+                    ID: "0014.tortoise_helmet",\
                     count: 1\
                 }\
             ]\
