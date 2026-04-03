@@ -12,7 +12,7 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"銅のヘルメット"}
+    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"銅のヘルメット",color:"white"}
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"ちょっと錆びているが使えないことはない。",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)

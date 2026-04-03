@@ -12,7 +12,7 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"銅の胸当て"}
+    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"銅の胸当て",color:"white"}
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"大事な胸の部分が錆びている気がするが多分大丈夫",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
