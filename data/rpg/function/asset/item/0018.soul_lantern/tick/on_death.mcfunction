@@ -20,6 +20,6 @@ tag @s remove RPG.Death
 tellraw @s [{"text":"ﾗﾝ･ﾀｧﾝ ",color:"white",italic:1b},{"text":":",color:"green",italic:0b},{"text":"余の魂...無駄にするでないぞ！",color:"white",bold:1b,italic:0b}]
 
 # アイテムの消去
-    execute if score $Item.foreach.RunSlot reizo_mcfunc_Engin.Temp matches 9 run return run function reizo_mcfunc_engin:api/item/del.m {Slot:9b,Count:1}
-    execute if score $Item.foreach.RunSlot reizo_mcfunc_Engin.Temp matches 10 run return run function reizo_mcfunc_engin:api/item/del.m {Slot:10b,Count:1}
-    execute if score $Item.foreach.RunSlot reizo_mcfunc_Engin.Temp matches 11 run return run function reizo_mcfunc_engin:api/item/del.m {Slot:11b,Count:1}
+    execute if score $Item.foreach.RunSlot reizo_mcfunc_Engin.Temp matches 9 run return run function reizo_mcfunc_engin:api/item/count/remove.m {Slot:9b,Value:1}
+    execute if score $Item.foreach.RunSlot reizo_mcfunc_Engin.Temp matches 10 run return run function reizo_mcfunc_engin:api/item/count/remove.m {Slot:10b,Value:1}
+    execute if score $Item.foreach.RunSlot reizo_mcfunc_Engin.Temp matches 11 run return run function reizo_mcfunc_engin:api/item/count/remove.m {Slot:11b,Value:1}
