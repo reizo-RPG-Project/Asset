@@ -1,4 +1,4 @@
-#> rpg:asset/item/0047.abstract_cokkie/give/_
+#> rpg:asset/item/0048.normal_cookie/give/_
 #
 # Itemの取得処理
 #
