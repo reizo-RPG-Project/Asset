@@ -14,9 +14,15 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"チョコｸｯｷｰ"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"あま～いチョコの味だ！"}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"あま～いチョコの味だ！",color:"gray",italic:0b}]
 
 # フィールド
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 2
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
+    # カウント
+    data modify storage reizo_mcfunc_engin:item Field.Count set value 96
+    # クッキーID
+    data modify storage reizo_mcfunc_engin:item Field.CookieID set value "002"
+    # 初期次回レベルまでの量
+    data modify storage reizo_mcfunc_engin:item Field.InitNext set value 150
