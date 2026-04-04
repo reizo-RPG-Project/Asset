@@ -51,6 +51,7 @@
         # Item
         scoreboard objectives add RPG.Item.0010.Status dummy
         scoreboard objectives add RPG.Item.0040.Temp dummy
+        scoreboard objectives add RPG.Item.0047.ClickCount dummy
         # ダンジョン
             # Common
             scoreboard objectives add RPG.Dungeon dummy

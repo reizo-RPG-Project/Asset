@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "charged": {
+            "trigger": "player_hurt_entity",
+            "conditions": {
+                "damage": {
+                    "dealt": {
+                        "min": 0
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:asset/item/0047.abstract_cokkie/trigger/clicked"
+    }
+}
