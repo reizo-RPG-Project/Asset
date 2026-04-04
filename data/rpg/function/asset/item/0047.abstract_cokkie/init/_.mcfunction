@@ -4,4 +4,5 @@
 #
 # @within function reizo_mcfunc_engin:asset/item/.manager/init/run.m
 
-# Init処理
+# Lvを0に
+data modify storage reizo_mcfunc_engin:context this.Lv set value 0

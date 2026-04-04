@@ -20,8 +20,10 @@
     data modify storage reizo_mcfunc_engin:item Register.Slot set value [mainhand, offhand]
 
 #> フィールド
-    # カウント
-    data modify storage reizo_mcfunc_engin:item Field.Count set value 64
+    # クッキーID
+    # data modify storage reizo_mcfunc_engin:item Field.CookieID set value "000"
+    # 初期次回レベルまでの量
+    # data modify storage reizo_mcfunc_engin:item Field.InitNext set value 100
     # 回復量
     data modify storage reizo_mcfunc_engin:item Field.Recovery set value 1
     # いつでも食べられるかどうか

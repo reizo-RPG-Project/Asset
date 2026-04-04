@@ -20,3 +20,9 @@
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 1
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
+    # カウント
+    data modify storage reizo_mcfunc_engin:item Field.Count set value 64
+    # クッキーID
+    data modify storage reizo_mcfunc_engin:item Field.CookieID set value "001"
+    # 初期次回レベルまでの量
+    data modify storage reizo_mcfunc_engin:item Field.InitNext set value 100
