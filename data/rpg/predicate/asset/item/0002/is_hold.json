@@ -1,0 +1,22 @@
+{
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+        "equipment": {
+            "mainhand": {
+                "items":"diamond_horse_armor",
+                "predicates": {
+                    "custom_data": {
+                        "Item":{
+                            "Registry":{
+                                "Extends":[
+                                    {"ID":"0002.abstract_weapon","namespace":"rpg"}
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
