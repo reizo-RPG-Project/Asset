@@ -17,14 +17,12 @@
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [[{"text":"ｼﾞｬｯｸ",color:"gray",italic:0b,bold:1b},{"text":"と",color:"gray",italic:0b,bold:0b},{"text":"ﾗﾝﾀｰﾝ",color:"gray",italic:0b,bold:1b},{"text":"が共同で作った最強(?)の被り物",color:"gray",italic:0b,bold:0b}],{"text":"しゃがむと光る。何かいいことがあるかも...?",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value ["head"]
-    # アイテムを持っていない場合でも動作させるかどうか。 boolean型
-    data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
 
 # フィールド
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 3
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # 最大体力
-    data modify storage reizo_mcfunc_engin:item Field.HP set value 5
+    data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 5
     # 防御力
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 13
