@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"ｼﾞｬｯｸ･ｵ･ﾗﾝﾀｰﾝ",bold:1b}]
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [[{"text":"ｼﾞｬｯｸ",color:"gray",italic:0b,bold:1b},{"text":"と",color:"gray",italic:0b,bold:0b},{"text":"ﾗﾝﾀｰﾝ",color:"gray",italic:0b,bold:1b},{"text":"が共同で作った最強(?)の被り物",color:"gray",italic:0b,bold:0b}],{"text":"シフトを押すと発光し、防御力が上がる",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [[{"text":"ｼﾞｬｯｸ",color:"gray",italic:0b,bold:1b},{"text":"と",color:"gray",italic:0b,bold:0b},{"text":"ﾗﾝﾀｰﾝ",color:"gray",italic:0b,bold:1b},{"text":"が共同で作った最強(?)の被り物",color:"gray",italic:0b,bold:0b}],{"text":"しゃがむと光る。何かいいことがあるかも...?",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value ["head"]
     # アイテムを持っていない場合でも動作させるかどうか。 boolean型
