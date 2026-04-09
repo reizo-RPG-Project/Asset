@@ -5,7 +5,8 @@
 # @within function rpg:asset/object/0012.ender_pouch_storage/tick/open/player
 
 # タグ剥奪
-tag @p remove RPG.Obj.0012.Open
+    tag @p remove RPG.Obj.0012.Open
+    tag @p remove RPG.Obj.0012.FX_Once
 
 # お願いOMD!
 function #oh_my_dat:please
