@@ -4,6 +4,9 @@
 #
 # @within function rpg:asset/mob/0014.npc_skull/summon/_
 
+# 骸骨を出す
+execute align xyz run summon item_display ~0.5 ~0.5 ~0.5 {item:{id:"skeleton_skull"},billboard:"vertical"}
+
 # 透明化
 effect give @s invisibility infinite 1 true
 
