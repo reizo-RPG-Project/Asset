@@ -43,6 +43,7 @@
         scoreboard objectives add RPG.Mob.0012.Talk dummy
         scoreboard objectives add RPG.Mob.0012.Talk.RNG dummy
         scoreboard objectives add RPG.Mob.0013.Talk dummy
+        scoreboard objectives add RPG.Mob.0014.Talk dummy
         # Object
         scoreboard objectives add RPG.Obj.0003.In_Hostil.Delay dummy
         scoreboard objectives add RPG.Obj.0003.HP dummy
