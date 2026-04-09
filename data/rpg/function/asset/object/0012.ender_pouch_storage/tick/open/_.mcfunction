@@ -12,3 +12,6 @@ execute if entity @p[tag=!RPG.Obj.0012.FX_Once] run function rpg:asset/object/00
 
 # 閉めたな！
 execute if data storage reizo_mcfunc_engin:context this{Close:1b} run function rpg:asset/object/0012.ender_pouch_storage/tick/close/_
+
+# ここからはTP
+execute positioned ~ ~1.1 ~ run tp @s ~ ~ ~
