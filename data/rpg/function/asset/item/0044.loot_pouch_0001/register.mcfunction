@@ -105,6 +105,16 @@
                     count: 1\
                 },\
                 {\
+                    Weight: 2,\
+                    ID: "0045.copper_leggings",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 2,\
+                    ID: "0046.copper_boots",\
+                    count: 1\
+                },\
+                {\
                     Weight: 1,\
                     ID: "0014.tortoise_helmet",\
                     count: 1\
