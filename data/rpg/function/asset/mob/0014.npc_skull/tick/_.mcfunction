@@ -5,7 +5,7 @@
 # @within function rpg:asset/mob/0007.abstract_npc/init/_
 
 # 骸骨をプレイヤーに追跡
-rotate @n[type=item_display] ~ ~
+rotate @n[type=item_display,distance=..1] ~ ~
 
 # パーティクル
 particle glow ~ ~-0.5 ~ 0.0 0.5 0.0 0 1 normal @a[distance=..3]
