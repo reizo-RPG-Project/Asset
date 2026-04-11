@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fall_from_height",
+      "conditions": {
+        "distance": {
+          "y": {
+            "min": 0.05
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "rpg:asset/item/0053.slime_boots/trigger/fall"
+  }
+}
