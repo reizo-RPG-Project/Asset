@@ -11,4 +11,4 @@ data modify entity @s Item.components."minecraft:attribute_modifiers" append val
 data modify entity @s Item.components."minecraft:unbreakable" set value {}
 
 # カスタムアーマーの場合、説明文に無駄なものが付いているので消去
-execute if data entity @s Item.components."minecraft:trim" run data modify storage reizo_mcfunc_engin:context this.tooltip_display.hidden_components append value "trim"
+execute if data entity @s Item.components."minecraft:trim" run data modify entity @s Item.components."minecraft:tooltip_display".hidden_components append value "trim"

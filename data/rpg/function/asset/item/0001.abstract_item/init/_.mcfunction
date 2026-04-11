@@ -5,13 +5,8 @@
 # @within function reizo_mcfunc_engin:asset/item/.manager/init/run.m
 
 # ツールチップに移る文字を隠す
-    # 全アイテム共通で隠すやつ
-        data modify storage reizo_mcfunc_engin:context this.tooltip_display.hidden_components append value "attribute_modifiers"
-        data modify storage reizo_mcfunc_engin:context this.tooltip_display.hidden_components append value "unbreakable"
-    # ストレージコピー
-    data modify entity @s Item.components."minecraft:tooltip_display".hidden_components set from storage reizo_mcfunc_engin:context this.tooltip_display.hidden_components
-    # お掃除
-    data remove storage reizo_mcfunc_engin:context this.tooltip_display
+    data modify entity @s Item.components."minecraft:tooltip_display".hidden_components append value "attribute_modifiers"
+    data modify entity @s Item.components."minecraft:tooltip_display".hidden_components append value "unbreakable"
 
 # Countのセット
 data modify entity @s Item.components."minecraft:max_stack_size" set from storage reizo_mcfunc_engin:item Field.Count
