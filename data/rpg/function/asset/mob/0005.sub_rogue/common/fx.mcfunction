@@ -1,8 +1,8 @@
-#> rpg:asset/mob/0005.sub_rogue/tick/summon/common/fx
+#> rpg:asset/mob/0005.sub_rogue/common/fx
 #
 # 
 #
-# @within function rpg:asset/mob/0005.sub_rogue/tick/_
+# @within function rpg:asset/mob/0005.sub_rogue/in_hostile/_
 
 # [ImportKey]: NobwRALgngDgpmAXGAxgSwE4oDYIDRgCuhaAJkmAOwqkBGADAMwCMAbALQBMAhgCz3t+ATlLsh9XqN68AZqQAcAVkVx5tSvLAEAdtwC2CZIDDFAATMtYGNwz6AzknAoA9oW0QknRQRRw3cDA5gAG7c2ISG4AAeSPQEUDEAvgkENqRohPaI9AB08gS2ENbuWQRw2NhoMLaGzPSxYBhOhRCG9Wi2AKLlldUdAI6EodhQAMpWPuSIMqHVSQC6QA_3
 # 円 1

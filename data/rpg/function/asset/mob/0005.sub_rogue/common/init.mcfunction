@@ -1,8 +1,8 @@
-#> rpg:asset/mob/0005.sub_rogue/tick/summon/common/init
+#> rpg:asset/mob/0005.sub_rogue/common/init
 #
 # 
 #
-# @within function rpg:asset/mob/0005.sub_rogue/tick/_
+# @within function rpg:asset/mob/0005.sub_rogue/in_hostile/_
 
 # タグつけ
 tag @s add RPG.Mob.0005.Summon
