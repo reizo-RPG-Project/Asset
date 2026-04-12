@@ -8,8 +8,7 @@
 attribute @s scale base set 0.7
 
 # 親クラス動作の呼び出し
-    data modify storage reizo_mcfunc_engin:api Args.Super.Extends set from storage reizo_mcfunc_engin:context Register.Extends
-    function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"init/_"}
+function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"init/_"}
 
 # Mob 0006を45%の確率で乗せる
     # 45%を引けなかったら失敗
