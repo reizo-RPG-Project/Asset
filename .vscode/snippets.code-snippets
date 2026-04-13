@@ -1,4 +1,18 @@
 {
+  "Super": {
+    "prefix": "super",
+    "body": [
+        "# 親クラスのメソッドを呼ぶ",
+        "function reizo_mcfunc_engin:api/super/_.m {Type:\"\",Method:\"\"}"
+    ]
+  },
+  "Call Method": {
+    "prefix": "call",
+    "body": [
+        "# メソッドを呼ぶ",
+        "function reizo_mcfunc_engin:api/call/_protected.m {Type:\"\",Method:\"\"}"
+    ]
+  },
   "Stash of Context this": {
     "prefix": "this/stash",
     "body": [
