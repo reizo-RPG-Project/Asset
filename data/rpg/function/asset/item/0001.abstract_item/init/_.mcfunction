@@ -15,6 +15,8 @@ data modify entity @s Item.components."minecraft:max_stack_size" set from storag
 function rpg:asset/item/0001.abstract_item/init/lore/_
 
 # レア度のセット
+    # 他のやつにthisが干渉してほしくないので退避
+    function reizo_mcfunc_engin:asset/.manager/common/context/this/stash
     # データを反映する。
     function rpg:asset/item/0001.abstract_item/init/rarity/set_data
     # 色の反映
@@ -24,5 +26,6 @@ function rpg:asset/item/0001.abstract_item/init/lore/_
     # Loreの先頭に追加
     data modify entity @s Item.components."minecraft:lore" append from storage reizo_mcfunc_engin:context this.Init.Lore
     # お掃除
-    data remove storage reizo_mcfunc_engin:context this
     data remove storage reizo_mcfunc_engin:context Register.Lore
+    # 退避したものを戻す
+    function reizo_mcfunc_engin:asset/.manager/common/context/this/pop
