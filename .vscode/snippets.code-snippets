@@ -26,5 +26,13 @@
         "# 退避したデータを解放する",
         "function reizo_mcfunc_engin:asset/.manager/common/context/data/pop"
     ]
+  },
+  "Print Out Test": {
+    "prefix": "test",
+    "body": [
+        "",
+        "tellraw @a {\"text\":\"LAM!\",color:\"#007D7A\"}",
+        ""
+    ]
   }
 }
