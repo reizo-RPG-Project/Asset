@@ -12,4 +12,3 @@ execute if entity @s[tag=reizo_mcfunc_Engin.Is_on_Ground] if data entity @s {fal
 
 # 地に足がついていない場合にVecYを取っておく
 data modify storage reizo_mcfunc_engin:context this.VecY set from entity @s Motion[1]
-tellraw @a {"storage":"reizo_mcfunc_engin:context","nbt":"this"}
