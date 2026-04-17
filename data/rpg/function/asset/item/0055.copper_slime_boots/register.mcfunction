@@ -1,4 +1,4 @@
-#> rpg:asset/item/0054.leather_slime_boots/register
+#> rpg:asset/item/0055.copper_slime_boots/register
 #
 # 
 #
@@ -6,11 +6,11 @@
 
 #> 登録処理
     # 継承(オプション)
-    data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0023.leather_boots",namespace:"rpg"}
+    data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0046.copper_boots",namespace:"rpg"}
     data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0053.abstract_sime_boots",namespace:"rpg"}
     # 継承されないかどうか。 boolean型
     data modify storage reizo_mcfunc_engin:item Register.Final set value 1b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"革のスライムブーツ",color:"white"}
+    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"銅のスライムブーツ",color:"white"}

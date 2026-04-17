@@ -8,7 +8,7 @@
     # 継承(オプション)
     data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0012.abstract_equipment",namespace:"rpg"}
     # 継承されないかどうか。 boolean型
-    data modify storage reizo_mcfunc_engin:item Register.Final set value 1b
+    data modify storage reizo_mcfunc_engin:item Register.Final set value 0b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
