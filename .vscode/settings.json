@@ -47,14 +47,10 @@
                         "        # data modify storage reizo_mcfunc_engin:mob Register.main_hand set value {id:}",
                         "        # off_hand",
                         "        # data modify storage reizo_mcfunc_engin:mob Register.off_hand set value {id:}",
-                        "    # 大きさはどれくらい？ Max = 16.0d double型",
-                        "    data modify storage reizo_mcfunc_engin:mob Register.Scale set value 1.1d",
                         "    # アイテムを落とさないか？ boolean型",
                         "    data modify storage reizo_mcfunc_engin:mob Register.DethItem_Empty set value 1b",
                         "    # 燃えるかどうか。 boolean型",
-                        "    data modify storage reizo_mcfunc_engin:mob Register.Flammable set value 0b",
-                        "    # 重力がどれくらい影響するか。高ければ高いほど重力の影響を受ける。値を-にすると浮き始める。 double型",
-                        "    # data modify storage reizo_mcfunc_engin:mob Register.Gravity set value 0.08d"
+                        "    data modify storage reizo_mcfunc_engin:mob Register.Flammable set value 0b"
                     ]
                 }
             ]
@@ -67,7 +63,7 @@
                     "type": "file",
                     "rel": "data/rpg/function/asset/mob/%namespace%/summon/_.mcfunction",
                     "content": [
-                        "#> rpg/asset/mob/%namespace%/summon/_",
+                        "#> rpg:asset/mob/%namespace%/summon/_",
                         "#",
                         "# Mobの召喚処理",
                         "#",
@@ -95,7 +91,7 @@
                     "type": "file",
                     "rel": "data/rpg/function/asset/mob/%namespace%/tick/_.mcfunction",
                     "content": [
-                        "#> rpg/asset/mob/%namespace%/tick/_",
+                        "#> rpg:asset/mob/%namespace%/tick/_",
                         "#",
                         "# Mobの常時Tick処理",
                         "#",
@@ -114,7 +110,7 @@
                     "type": "file",
                     "rel": "data/rpg/function/asset/mob/%namespace%/init/_.mcfunction",
                     "content":[
-                        "#> rpg/asset/mob/%namespace%/init",
+                        "#> rpg:asset/mob/%namespace%/init",
                         "#",
                         "# MobのInit処理",
                         "#",
@@ -160,7 +156,7 @@
                     "type": "file",
                     "rel": "data/rpg/function/asset/object/%namespace%/summon/_.mcfunction",
                     "content": [
-                        "#> rpg/asset/object/%namespace%/summon/_",
+                        "#> rpg:asset/object/%namespace%/summon/_",
                         "#",
                         "# Objectの召喚処理",
                         "#",
@@ -188,7 +184,7 @@
                     "type": "file",
                     "rel": "data/rpg/function/asset/object/%namespace%/tick/_.mcfunction",
                     "content": [
-                        "#> rpg/asset/object/%namespace%/tick/_",
+                        "#> rpg:asset/object/%namespace%/tick/_",
                         "#",
                         "# Objectの常時Tick処理",
                         "#",
@@ -207,7 +203,7 @@
                     "type": "file",
                     "rel": "data/rpg/function/asset/object/%namespace%/init/_.mcfunction",
                     "content":[
-                        "#> rpg/asset/object/%namespace%/init/_",
+                        "#> rpg:asset/object/%namespace%/init/_",
                         "#",
                         "# ",
                         "#",
@@ -247,7 +243,11 @@
                         "    # ({animation: (block | bow | brush | crossbow | drink | eat | none | spear | spyglass | toot_horn),consume_seconds:(float型),has_consume_particles:(boolean型),on_consume_effects:(TextComponentsString[])})",
                         "    # data modify storage reizo_mcfunc_engin:item Register.Consumable set value {\"animation\":\"none\",\"consume_seconds\":2147483647}",
                         "    # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)",
-                        "    data modify storage reizo_mcfunc_engin:item Register.Slot set value []"
+                        "    data modify storage reizo_mcfunc_engin:item Register.Slot set value []",
+                        "    # アイテムを持っていない場合でも動作させるかどうか。 boolean型",
+                        "    # data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b",
+                        "    # どのトリガーを使用する？",
+                        "   data modify storage reizo_mcfunc_engin:item Register.Trigger append value \"\""
                     ]
                 }
             ]
