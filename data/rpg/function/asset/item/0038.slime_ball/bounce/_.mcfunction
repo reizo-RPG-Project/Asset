@@ -4,12 +4,6 @@
 #
 # @within function rpg:asset/item/0038.slime_ball/trigger/fall
 
-# VecYを取得
-    # お願いOMD!
-    function #oh_my_dat:please
-    # OUT OMD
-    data modify storage reizo_mcfunc_engin:context this set from storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Item.0038.this
-
 # VecYに-1をかけてベクトルを反転させる(本来は-1だがhb.motionの仕様上10000倍にしなければならないので-10000倍に)
 execute store result storage reizo_mcfunc_engin:context this.VecY double 1 run data get storage reizo_mcfunc_engin:context this.VecY -10000
 
@@ -23,7 +17,7 @@ execute store result storage reizo_mcfunc_engin:context this.VecY double 1 run d
     function #p_motion:xyz
 
 # お掃除
-data remove storage reizo_mcfunc_engin:context this
+data remove storage reizo_mcfunc_engin:context this.VecY
 
 # VFX
     particle item_slime ~ ~ ~ 0.3 0.0 0.3 0 10
