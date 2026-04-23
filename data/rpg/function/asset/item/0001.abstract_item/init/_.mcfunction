@@ -9,7 +9,7 @@
     data modify entity @s Item.components."minecraft:tooltip_display".hidden_components append value "unbreakable"
 
 # Countのセット
-data modify entity @s Item.components."minecraft:max_stack_size" set from storage reizo_mcfunc_engin:item Field.Count
+data modify entity @s Item.components."minecraft:max_stack_size" set from storage reizo_mcfunc_engin:context data.Field.Count
 
 # ステータスによる説明文の変更
 function rpg:asset/item/0001.abstract_item/init/lore/_
@@ -20,7 +20,7 @@ function rpg:asset/item/0001.abstract_item/init/lore/_
     # データを反映する。
     function rpg:asset/item/0001.abstract_item/init/rarity/set_data
     # 色の反映
-    execute unless data storage reizo_mcfunc_engin:item Field.Rarity{Value:0} run data modify storage reizo_mcfunc_engin:context this.Init.Lore[0].color set from storage reizo_mcfunc_engin:item Field.Rarity.Color
+    execute unless data storage reizo_mcfunc_engin:context data.Field.Rarity{Value:0} run data modify storage reizo_mcfunc_engin:context this.Init.Lore[0].color set from storage reizo_mcfunc_engin:context data.Field.Rarity.Color
     # [レア度]という表記
     data modify storage reizo_mcfunc_engin:context this.Init.Lore prepend value {text:"\uE002レア度: ",color:"white",italic:0b}
     # Loreの先頭に追加
