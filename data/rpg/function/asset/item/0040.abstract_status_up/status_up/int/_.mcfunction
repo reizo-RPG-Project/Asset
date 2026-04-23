@@ -4,11 +4,8 @@
 #
 # @within function rpg:asset/item/0040.abstract_status_up/status_up/_
 
-# このIDのデータがあるかチェック
-function rpg:asset/item/0040.abstract_status_up/status_up/int/check.m with storage reizo_mcfunc_engin:context origin_Args
-
-# このIDはすでに使われているので動作を終了
-execute if data storage reizo_mcfunc_engin:context this{End:1b} run return run data remove storage reizo_mcfunc_engin:context this.End
+# 装備したかどうかを確認、装備していたら止まる。
+execute if data storage reizo_mcfunc_engin:context this.Equipped.INT run return 0
 
 # フィールドをスコアに
 execute store result score $INT RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context data.Field.INT
@@ -19,5 +16,5 @@ scoreboard players operation @s RPG.INT += $INT RPG.Item.0040.Temp
 # お掃除
 scoreboard players reset $INT RPG.Item.0040.Temp
 
-# 実行したアイテムのIDスタックに積む
-function rpg:asset/item/0040.abstract_status_up/common/int/stash
+# 上昇したステータスの値を取得
+data modify storage reizo_mcfunc_engin:context this.Equipped.INT set from storage reizo_mcfunc_engin:context data.Field.INT
