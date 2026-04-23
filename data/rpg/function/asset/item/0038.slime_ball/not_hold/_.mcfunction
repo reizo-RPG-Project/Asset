@@ -11,4 +11,5 @@ data modify storage reizo_mcfunc_engin:context this.SafeFallDistance set from en
 execute if data storage reizo_mcfunc_engin:context this{SafeFallDistance:100.0} run attribute @s minecraft:safe_fall_distance base reset
 
 # お掃除
-data remove storage reizo_mcfunc_engin:context this
+    data remove storage reizo_mcfunc_engin:context this.SafeFallDistance
+    data remove storage reizo_mcfunc_engin:context this.VecY
