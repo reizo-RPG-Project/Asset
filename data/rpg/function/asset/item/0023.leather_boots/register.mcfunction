@@ -8,13 +8,13 @@
     # 継承(オプション)
     data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0012.abstract_equipment",namespace:"rpg"}
     # 継承されないかどうか。 boolean型
-    data modify storage reizo_mcfunc_engin:item Register.Final set value 1b
+    data modify storage reizo_mcfunc_engin:item Register.Final set value 0b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"革のブーツ"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"歩きやすい！っが防御力はイマイチ...",color:"gray",italic:0b},{"text":"全力で逃げるための最重要装備",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"歩きやすい！っが防御力はイマイチ...",color:"gray",italic:0b},{"text":"全力で逃げるための最重要装備",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value ["feet"]
 
