@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"鉄の胸当て",color:"white"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"<未設定>",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"厚い鉄板で鍛えられた胸当て。",color:"gray",italic:0b},{"text":"攻撃から身を守ってくれる、兵士たちの定番装備。",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value [chest]
 
@@ -25,4 +25,4 @@
     # ComboID
     data modify storage reizo_mcfunc_engin:item Field.ComboID set value 4
     # DEF
-    data modify storage reizo_mcfunc_engin:item Field.DEF set value 46
+    data modify storage reizo_mcfunc_engin:item Field.DEF set value 29

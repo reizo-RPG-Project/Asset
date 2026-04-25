@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"鉄のヘルメット",color:"white"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"鉄の冷たさが脳を冷却してくれるっ！",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"重厚な鉄で作られた兜",color:"gray",italic:0b},{"text":"頭をしっかりと守ってくれる。",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value [head]
 

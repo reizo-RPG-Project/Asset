@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"鉄のブーツ",color:"white"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"<未設定>",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"頑丈な鉄で補強されたブーツ。",color:"gray",italic:0b},{"text":"足元を守りつつ、安定した足取りを支える。",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value [feet]
 

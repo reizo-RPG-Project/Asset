@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"鉄のレギンス"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"<未設定>",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"下半身を守る鉄製の防具。",color:"gray",italic:0b},{"text":"動きやすさと防御力のバランスが取れている。",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value ["legs"]
 
@@ -25,4 +25,4 @@
     # ComboID
     data modify storage reizo_mcfunc_engin:item Field.ComboID set value 4
     # DEF
-    data modify storage reizo_mcfunc_engin:item Field.DEF set value 31
+    data modify storage reizo_mcfunc_engin:item Field.DEF set value 16
