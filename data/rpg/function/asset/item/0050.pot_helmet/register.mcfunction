@@ -20,7 +20,7 @@
 
 # フィールド
     # レア度
-    data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 3
+    data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 5
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # 最大体力
     data modify storage reizo_mcfunc_engin:item Field.HP set value 10
