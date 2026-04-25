@@ -25,6 +25,6 @@
     # ComboID
     data modify storage reizo_mcfunc_engin:item Field.ComboID set value 2
     # DEF
-    data modify storage reizo_mcfunc_engin:item Field.DEF set value 22
+    data modify storage reizo_mcfunc_engin:item Field.DEF set value 17
     # 最大体力
-    data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 5
+    data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 4
