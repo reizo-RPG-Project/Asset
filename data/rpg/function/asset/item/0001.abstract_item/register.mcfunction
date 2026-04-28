@@ -16,7 +16,7 @@
 
 # フィールド
     # レア度
-    # data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 0
-    # data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
+    data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 0
+    data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
     # カウント
-    execute unless data storage reizo_mcfunc_engin:item Field.Count run data modify storage reizo_mcfunc_engin:item Field.Count set value 1
+    data modify storage reizo_mcfunc_engin:item Field.Count set value 1
