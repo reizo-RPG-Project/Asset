@@ -4,6 +4,9 @@
 #
 # @within function rpg:asset/item/0051.juck_o_luntern/tick/check/_
 
+# 引数取得
+data modify storage reizo_mcfunc_engin:object Field.LightLevel set from storage reizo_mcfunc_engin:context data.Field.LightLevel
+
 # 光源設置
 execute align xyz positioned ~0.5 ~1.5 ~0.5 run function reizo_mcfunc_engin:api/object/summon.m {ID:"0011.light",namespace:"rpg"}
 

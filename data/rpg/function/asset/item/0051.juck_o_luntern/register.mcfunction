@@ -26,3 +26,5 @@
     data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 5
     # 防御力
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 13
+    # 明るさレベル int型
+    data modify storage reizo_mcfunc_engin:item Field.LightLevel set value 14
