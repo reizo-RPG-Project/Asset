@@ -17,3 +17,5 @@
 #> フィールド
     # キルされるまでの時間 Tick
     data modify storage reizo_mcfunc_engin:object Field.KillTime set value 2
+    # 明るさレベル Int型
+    execute unless data storage reizo_mcfunc_engin:object Field.LightLevel run data modify storage reizo_mcfunc_engin:object Field.LightLevel set value 10

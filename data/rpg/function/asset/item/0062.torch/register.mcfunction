@@ -19,3 +19,5 @@
 #> フィールド
     # カウント
     # data modify storage reizo_mcfunc_engin:item Field.Count set value 64
+    # 明るさレベル Int型
+    data modify storage reizo_mcfunc_engin:item Field.LightLevel set value 11

@@ -13,3 +13,7 @@
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 1b
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
     data modify storage reizo_mcfunc_engin:item Register.Slot set value [mainhand, offhand]
+
+#> フィールド
+    # 明るさレベル int型
+    data modify storage reizo_mcfunc_engin:item Field.LightLevel set value 1
