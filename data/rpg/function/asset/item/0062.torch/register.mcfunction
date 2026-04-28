@@ -14,10 +14,10 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"松明"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"何の変哲もない、一般的な松明。"}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"何の変哲もない、一般的な松明。",color:"gray",italic:0b}]
 
 #> フィールド
     # カウント
-    # data modify storage reizo_mcfunc_engin:item Field.Count set value 64
+    data modify storage reizo_mcfunc_engin:item Field.Count set value 64
     # 明るさレベル Int型
     data modify storage reizo_mcfunc_engin:item Field.LightLevel set value 11
