@@ -46,11 +46,6 @@
     # attribute
     attribute @s minecraft:gravity base reset
     attribute @s minecraft:safe_fall_distance base reset
-    # ステータスもOriginに合わせる
-    execute unless score @s RPG.HP_MAX = @s RPG.OriginHP_MAX run scoreboard players operation @s RPG.HP_MAX = @s RPG.OriginHP_MAX
-    execute unless score @s RPG.STR = @s RPG.OriginSTR run scoreboard players operation @s RPG.STR = @s RPG.OriginSTR
-    execute unless score @s RPG.INT = @s RPG.OriginINT run scoreboard players operation @s RPG.INT = @s RPG.OriginINT
-    execute unless score @s RPG.DEF = @s RPG.OriginDEF run scoreboard players operation @s RPG.DEF = @s RPG.OriginDEF
 
 # OMD
     # Item
