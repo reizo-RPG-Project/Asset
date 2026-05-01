@@ -6,6 +6,7 @@
 
 #> 登録処理
     # 継承(オプション)
+    data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0061.abstract_glow_item",namespace:"rpg"}
     data modify storage reizo_mcfunc_engin:item Register.Extends append value {ID:"0010.abstract_artifact",namespace:"rpg"}
     # 継承されないかどうか。 boolean型
     data modify storage reizo_mcfunc_engin:item Register.Final set value 1b
@@ -20,3 +21,5 @@
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 1
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "#FC0066"
+    # 明るさレベル Int型
+    data modify storage reizo_mcfunc_engin:item Field.LightLevel set value 8
