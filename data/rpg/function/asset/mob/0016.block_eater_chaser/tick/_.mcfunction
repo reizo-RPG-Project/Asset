@@ -27,4 +27,4 @@ data modify entity @s Rotation[1] set value 0
 tp @s ^ ^ ^0.1
 
 # プレイヤーがめっちゃ近くにいたら攻撃mob召喚
-execute if entity @p[distance=..0.5] run function rpg:asset/mob/0016.block_eater_chaser/tick/summon
+execute if entity @p[distance=..0.5] run function rpg:asset/mob/0016.block_eater_chaser/tick/summon/_
