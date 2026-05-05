@@ -1,0 +1,22 @@
+{
+    "criteria": {
+        "requirement":{
+            "trigger": "entity_hurt_player",
+            "conditions": {
+                "damage": {
+                    "type": {
+                        "tags": [
+                            {
+                                "id": "rpg:magic",
+                                "expected": true
+                            }
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:asset/mob/0015.block_eater/trigger/attack"
+    }
+}
