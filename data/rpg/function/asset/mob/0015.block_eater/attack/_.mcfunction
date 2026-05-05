@@ -8,4 +8,4 @@
 function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"attack/_"}
 
 # ダメージを与えたら死ぬ
-function reizo_mcfunc_engin:api/mob/remove
+function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"remove/_"}
