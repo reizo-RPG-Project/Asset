@@ -58,12 +58,7 @@
                     Weight: 4,\
                     ID: "0017.iron_sword",\
                     count: 1\
-                }\
-            ]\
-        },\
-        {\
-            Rolls:1,\
-            Entries:[\
+                },\
                 {\
                     Weight: 10,\
                     ID: "0025.amethyst_wand",\
@@ -117,6 +112,31 @@
                 {\
                     Weight: 1,\
                     ID: "0014.tortoise_helmet",\
+                    count: 1\
+                }\
+            ]\
+        },\
+        {\
+            Rolls:1,\
+            Entries:[\
+                {\
+                    Weight: 64,\
+                    ID: "0034.g_book",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 67,\
+                    ID: "0035.sharp_bone",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 52,\
+                    ID: "0038.slime_ball",\
+                    count: 1\
+                },\
+                {\
+                    Weight: 1,\
+                    ID: "0018.soul_lantern",\
                     count: 1\
                 }\
             ]\
