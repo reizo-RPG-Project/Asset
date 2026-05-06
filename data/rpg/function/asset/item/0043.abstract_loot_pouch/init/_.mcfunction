@@ -4,6 +4,9 @@
 #
 # @within function reizo_mcfunc_engin:asset/item/.manager/init/run.m
 
+# ID割り当て
+execute store result storage reizo_mcfunc_engin:context this.ItemID int 1 run scoreboard players add $Core RPG.Item.0043.ID 1
+
 # データの取得
 data modify storage reizo_mcfunc_engin:context this.Pools set from storage reizo_mcfunc_engin:context data.Field.Pools
 
