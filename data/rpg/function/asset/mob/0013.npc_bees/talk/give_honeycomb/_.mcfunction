@@ -5,7 +5,7 @@
 # @within function rpg:asset/mob/0013.npc_bees/talk/_
 
 # Talk
-tellraw @s "<ハチ飼いのビース> はい！どうぞ！"
+tellraw @s "<\uE009ハチ飼いのビース> はい！どうぞ！"
 
 # Give
 execute as @n[type=villager] at @s positioned ~ ~1.5 ~ run function rpg:asset/mob/0013.npc_bees/talk/give_honeycomb/give
