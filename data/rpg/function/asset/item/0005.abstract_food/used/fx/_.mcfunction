@@ -14,4 +14,4 @@
         execute anchored eyes positioned ^ ^ ^0.5 run function rpg:asset/item/0005.abstract_food/used/fx/particle/show.m with storage reizo_mcfunc_engin:context this.FX.particle
 
 # お掃除
-data remove storage reizo_mcfunc_engin:context this
+data remove storage reizo_mcfunc_engin:context this.FX
