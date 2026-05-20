@@ -11,7 +11,7 @@
     data modify storage reizo_mcfunc_engin:context this set from entity @s data.this
 
 # スコアをアップする
-function rpg:asset/mob/0007.abstract_npc/talk/add.m with storage reizo_mcfunc_engin:context data.Field
+function rpg:asset/mob/0007.abstract_npc/talk/add.m with storage reizo_mcfunc_engin:context this
 
 # メソッド実行
 execute as @p run function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"talk/_"}

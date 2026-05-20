@@ -8,7 +8,7 @@
 execute if data storage reizo_mcfunc_engin:context this.Equipped.DEF run return 0
 
 # フィールドをスコアに
-execute store result score $DEF RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context data.Field.DEF
+execute store result score $DEF RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context this.DEF
 
 # 足し算
 scoreboard players operation @s RPG.DEF += $DEF RPG.Item.0040.Temp
@@ -17,4 +17,4 @@ scoreboard players operation @s RPG.DEF += $DEF RPG.Item.0040.Temp
 scoreboard players reset $DEF RPG.Item.0040.Temp
 
 # 上昇したステータスの値を取得
-data modify storage reizo_mcfunc_engin:context this.Equipped.DEF set from storage reizo_mcfunc_engin:context data.Field.DEF
+data modify storage reizo_mcfunc_engin:context this.Equipped.DEF set from storage reizo_mcfunc_engin:context this.DEF

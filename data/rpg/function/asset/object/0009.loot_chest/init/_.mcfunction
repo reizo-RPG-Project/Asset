@@ -14,7 +14,7 @@ scoreboard players operation @s reizo_mcfunc_Engin.ScoreID = @p reizo_mcfunc_Eng
 execute on passengers run function rpg:asset/object/0009.loot_chest/init/passengers
 
 # 何tickで検知するかの値を取得
-execute unless score $CloseCheckTime RPG.Obj.0009.Open.Close_Check_Time = $CloseCheckTime RPG.Obj.0009.Open.Close_Check_Time store result score $CloseCheckTime RPG.Obj.0009.Open.Close_Check_Time run data get storage reizo_mcfunc_engin:context data.Field.CloseCheckTime
+execute unless score $CloseCheckTime RPG.Obj.0009.Open.Close_Check_Time = $CloseCheckTime RPG.Obj.0009.Open.Close_Check_Time store result score $CloseCheckTime RPG.Obj.0009.Open.Close_Check_Time run data get storage reizo_mcfunc_engin:context this.CloseCheckTime
 
 # 親クラスの動作を呼び出し
 function reizo_mcfunc_engin:api/super/_.m {Type:"object",Method:"init/_"}

@@ -11,7 +11,7 @@ tag @s remove RPG.Obj.0003.Summoned
 execute if score @s RPG.Obj.0003.HP matches 1.. run scoreboard players remove @s RPG.Obj.0003.HP 1
 
 # 残り1は本気
-execute if score @s RPG.Obj.0003.HP matches 1 if data storage reizo_mcfunc_engin:context data.Field{Seriously:1b} run tag @s add RPG.Obj.0003.in_seriously
+execute if score @s RPG.Obj.0003.HP matches 1 if data storage reizo_mcfunc_engin:context this{Seriously:1b} run tag @s add RPG.Obj.0003.in_seriously
 
 # 0になったらremove
 execute if score @s RPG.Obj.0003.HP matches 0 run return run function reizo_mcfunc_engin:api/object/remove

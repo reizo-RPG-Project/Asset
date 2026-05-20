@@ -8,12 +8,12 @@
 tag @s add This
 
 # もらうダメージの計算
-    execute if data storage reizo_mcfunc_engin:context data.Field.STR run function rpg:asset/item/0002.abstract_weapon/hit/dmg_dealt/str
-    execute if data storage reizo_mcfunc_engin:context data.Field.INT run function rpg:asset/item/0002.abstract_weapon/hit/dmg_dealt/int
+    execute if data storage reizo_mcfunc_engin:context this.STR run function rpg:asset/item/0002.abstract_weapon/hit/dmg_dealt/str
+    execute if data storage reizo_mcfunc_engin:context this.INT run function rpg:asset/item/0002.abstract_weapon/hit/dmg_dealt/int
 
 # ノックバック
     # データ取得
-    execute store result score $MotionPower reizo_mcfunc_Engin.Temp run data get storage reizo_mcfunc_engin:context data.Field.KnockBack
+    execute store result score $MotionPower reizo_mcfunc_Engin.Temp run data get storage reizo_mcfunc_engin:context this.KnockBack
     # タグつけ
     tag @p[tag=RPG.Attacker,tag=!reizo_mcfunc_Engin.Motion.Attacker,distance=0] add reizo_mcfunc_Engin.Motion.Attacker
     # ライブラリ使用

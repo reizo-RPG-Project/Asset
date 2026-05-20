@@ -7,8 +7,8 @@
 #> フィールドの適応
     # 敵対時からどれくらいでmobを召喚するか。
         # Init
-        execute store result score $min RPG.Obj.0003.In_Hostil.Delay run data get storage reizo_mcfunc_engin:context data.Field.in_hostil.Delay.min
-        execute store result score $max RPG.Obj.0003.In_Hostil.Delay run data get storage reizo_mcfunc_engin:context data.Field.in_hostil.Delay.max
+        execute store result score $min RPG.Obj.0003.In_Hostil.Delay run data get storage reizo_mcfunc_engin:context this.in_hostil.Delay.min
+        execute store result score $max RPG.Obj.0003.In_Hostil.Delay run data get storage reizo_mcfunc_engin:context this.in_hostil.Delay.max
         scoreboard players operation $Temp RPG.Obj.0003.In_Hostil.Delay = $max RPG.Obj.0003.In_Hostil.Delay
         # 計算
         scoreboard players operation $Temp RPG.Obj.0003.In_Hostil.Delay -= $min RPG.Obj.0003.In_Hostil.Delay

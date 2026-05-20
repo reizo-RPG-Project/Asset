@@ -8,7 +8,7 @@
 execute if score @s RPG.Mob.0002.AITimer matches 90 run function rpg:asset/mob/0003.zombie/tick/pounce_on
 
 # 100で戻す
-execute if score @s RPG.Mob.0002.AITimer matches 100 store result score @s RPG.STR run data get storage reizo_mcfunc_engin:context data.Field.STR
+execute if score @s RPG.Mob.0002.AITimer matches 100 store result score @s RPG.STR run data get storage reizo_mcfunc_engin:context this.STR
 
 # 140で終わり
 execute if score @s RPG.Mob.0002.AITimer matches 140.. run scoreboard players reset @s RPG.Mob.0002.AITimer

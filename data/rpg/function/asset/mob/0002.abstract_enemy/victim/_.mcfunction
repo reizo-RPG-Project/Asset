@@ -8,7 +8,7 @@
 tag @p[distance=0] add This
 
 # もらうダメージの計算
-    execute if data storage reizo_mcfunc_engin:context data.Field.STR run function rpg:asset/mob/0002.abstract_enemy/victim/dmg_delt/str
+    execute if data storage reizo_mcfunc_engin:context this.STR run function rpg:asset/mob/0002.abstract_enemy/victim/dmg_delt/str
     # TODO:魔法攻撃力も足しとけ。
 
 # ダメージ反映

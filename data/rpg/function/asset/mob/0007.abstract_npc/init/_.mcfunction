@@ -11,4 +11,4 @@ tag @s add RPG.Mob.0007.NPC
 data modify entity @s NoAI set value 1b
 
 # 話すならIDを割り当てる
-execute if data storage reizo_mcfunc_engin:context data.Field{Talk:1b} run function rpg:asset/mob/0007.abstract_npc/init/id_allocate
+execute if data storage reizo_mcfunc_engin:context this{Talk:1b} run function rpg:asset/mob/0007.abstract_npc/init/id_allocate
