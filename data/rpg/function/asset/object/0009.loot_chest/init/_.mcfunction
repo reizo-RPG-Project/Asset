@@ -5,7 +5,7 @@
 # @within function reizo_mcfunc_engin:asset/object/.manager/init/run.m
 
 # プレイヤーの持っているデータからセットするアイテムのデータを取得する
-data modify storage reizo_mcfunc_engin:context this.Items set from entity @p SelectedItem.components."minecraft:custom_data".Item.this.ItemsArgs
+data modify storage reizo_mcfunc_engin:context this.Items set from entity @p SelectedItem.components."minecraft:custom_data".Item.Field.ItemsArgs
 
 # スコアで結びつけ
 scoreboard players operation @s reizo_mcfunc_Engin.ScoreID = @p reizo_mcfunc_Engin.ScoreID

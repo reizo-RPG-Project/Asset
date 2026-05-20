@@ -11,7 +11,7 @@ tag @s add RPG.Obj.0009.Open.Init
 execute as @p run function rpg:asset/object/0009.loot_chest/common/item_data/push
 
 # アイテムを設置する
-    data modify storage reizo_mcfunc_engin:context this.SetItem.ItemsArgs set from storage reizo_mcfunc_engin:context this.ItemData.ItemsArgs
+    data modify storage reizo_mcfunc_engin:context this.SetItem.ItemsArgs set from storage reizo_mcfunc_engin:context this.Items
     function rpg:asset/object/0009.loot_chest/tick/open/init/set_item/foreach
 
 # データをもらう
