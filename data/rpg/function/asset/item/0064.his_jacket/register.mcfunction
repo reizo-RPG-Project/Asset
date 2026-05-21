@@ -26,3 +26,5 @@
     # data modify storage reizo_mcfunc_engin:item Field.ComboID set value null
     # DEF
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 315
+    # texts
+    data modify storage reizo_mcfunc_engin:item Field.Texts set value [{"text":"\uE011<ｱ> 「りんがんぐりぐり」だ！"},{"text":"\uE011<ｱ> ﾊﾝﾊﾞｰｸﾞ!!!"},{"text":"\uE011<ｱ> 死刑"},{"text":"\uE011<ｱ> ぱんつくったよ"}]
