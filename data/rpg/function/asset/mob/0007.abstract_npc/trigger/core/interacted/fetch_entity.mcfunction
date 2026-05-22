@@ -8,6 +8,7 @@
 # function rpg:common/fetch_entity/mob
     function reizo_mcfunc_engin:asset/.manager/common/context/args/push
     function reizo_mcfunc_engin:asset/.manager/common/context/data/push
+    function reizo_mcfunc_engin:asset/.manager/common/context/this/push
     data modify storage reizo_mcfunc_engin:context this set from entity @s data.this
 
 # スコアをアップする

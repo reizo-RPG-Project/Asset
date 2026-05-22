@@ -11,8 +11,8 @@
     data modify storage reizo_mcfunc_engin:item Register.Final set value 0b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 1b
-        # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"戦利品ポーチ"},{"text":"\uE005"}]
+    # 名前 (TextComponentsString)
+    data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"戦利品ポーチ",font:"default"},{"text":"\uE005",font:"icon/_",color:"white",italic:0b}]
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"いいものが出る...かも！？",color:"gray",italic:0b}]
     # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)

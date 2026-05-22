@@ -12,7 +12,7 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
     # 名前 String型
-    data modify storage reizo_mcfunc_engin:mob Register.Name set value "\uE005壺人"
+    data modify storage reizo_mcfunc_engin:mob Register.Name set value [{"text":"\uE005",font:"icon/_",color:"white",italic:0b},{"text":"壺人",font:"default"}]
 
 #> フィールド
     # 話す内容 boolean型(もしかしたらListにして何Tickにどの会話が出るかをここから調整出来るかも。)
@@ -24,3 +24,8 @@
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0021.wooden_wand"]},{Rarity:2,List:["0025.amethyst_wand","0033.resin_wand","0034.g_book"]}]
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0022.leather_leggings","0023.leather_boots"]},{Rarity:2,List:["0031.copper_helmet","0032.copper_chest","0036.honeycomb"]},{Rarity:3,List:["0014.tortoise_helmet"]}]
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0006.fuji_apple","0007.ramune"]},{Rarity:2,List:["0019.carrot"]},{Rarity:3,List:["0037.grand_steak"]}]
+    # 顔グラ
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"0",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"1",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"2",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"3",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
