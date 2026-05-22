@@ -25,7 +25,7 @@
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0022.leather_leggings","0023.leather_boots"]},{Rarity:2,List:["0031.copper_helmet","0032.copper_chest","0036.honeycomb"]},{Rarity:3,List:["0014.tortoise_helmet"]}]
     data modify storage reizo_mcfunc_engin:mob Field.Items append value [{Rarity:1,List:["0006.fuji_apple","0007.ramune"]},{Rarity:2,List:["0019.carrot"]},{Rarity:3,List:["0037.grand_steak"]}]
     # 顔グラ
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"0",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"1",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"2",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"3",color:"white",font:"icon/face/tubo"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"0",color:"white",font:"icon/face/0001.tubo/_"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"1",color:"white",font:"icon/face/0001.tubo/_"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"2",color:"white",font:"icon/face/0001.tubo/_"},{"text":"壺人> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"3",color:"white",font:"icon/face/0001.tubo/_"},{"text":"壺人> ",color:"white"}]

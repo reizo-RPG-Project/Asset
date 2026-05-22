@@ -20,7 +20,7 @@
     # TalkスコアのID String型
     data modify storage reizo_mcfunc_engin:mob Field.Score set value "0010"
     # 顔グラ
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"0",color:"white",font:"icon/face/villager"},{"text":"メル> ",color:"white"}]
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"1",color:"white",font:"icon/face/villager"},{"text":"メル> ",color:"white"}]
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"2",color:"white",font:"icon/face/villager"},{"text":"メル> ",color:"white"}]
-    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"3",color:"white",font:"icon/face/villager"},{"text":"メル> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"0",color:"white",font:"icon/face/0002.villager/_"},{"text":"メル> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"1",color:"white",font:"icon/face/0002.villager/_"},{"text":"メル> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"2",color:"white",font:"icon/face/0002.villager/_"},{"text":"メル> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"3",color:"white",font:"icon/face/0002.villager/_"},{"text":"メル> ",color:"white"}]
