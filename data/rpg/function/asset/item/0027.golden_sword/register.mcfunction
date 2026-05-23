@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"金の剣"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"どうだ？\uE006ゴージャス\uE006だろ？",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [[{"text":"どうだ?",color:"gray",italic:0b,font:"default"},{"text":"\uE006",font:"icon/_",color:"white"},{"text":"ゴージャス"},{"text":"\uE006",font:"icon/_",color:"white"},{"text":"だろ?",font:"default"}]]
 
 # フィールド
     # レア度
