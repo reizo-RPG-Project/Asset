@@ -10,5 +10,8 @@ scoreboard players operation @s reizo_mcfunc_Engin.ScoreID = @p reizo_mcfunc_Eng
 # 中身を移す
 execute on passengers run data modify entity @s Items set from entity @p EnderItems
 
+# 名前セット
+execute on passengers run data modify entity @s CustomName set value [{"text":"\uE008",font:"icon/_",color:"white"},{"text":"エンダーポーチ",font:"default",color:"dark_gray"}]
+
 # 親クラスの動作を呼び出し
 function reizo_mcfunc_engin:api/super/_.m {Type:"object",Method:"init/_"}

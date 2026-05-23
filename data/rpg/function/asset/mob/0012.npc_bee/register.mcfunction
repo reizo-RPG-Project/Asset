@@ -19,3 +19,8 @@
     data modify storage reizo_mcfunc_engin:mob Field.Talk set value 1b
     # TalkスコアのID String型
     data modify storage reizo_mcfunc_engin:mob Field.Score set value "0012"
+    # 顔グラ
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"0",color:"white",font:"icon/face/0003.bee/_"},{"text":"ハチ> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"1",color:"white",font:"icon/face/0003.bee/_"},{"text":"ハチ> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"2",color:"white",font:"icon/face/0003.bee/_"},{"text":"ハチ> ",color:"white"}]
+    data modify storage reizo_mcfunc_engin:mob Field.FaceData append value [{"text":"<",color:"white"},{"text":"3",color:"white",font:"icon/face/0003.bee/_"},{"text":"ハチ> ",color:"white"}]
