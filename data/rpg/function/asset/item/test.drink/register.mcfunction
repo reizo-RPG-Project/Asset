@@ -25,6 +25,7 @@
     # 飲み物かどうか boolean
     data modify storage reizo_mcfunc_engin:item Field.IsDrink set value 1b
     # 回復量
-    data modify storage reizo_mcfunc_engin:item Field.Recovery set value 3
+    data modify storage reizo_mcfunc_engin:item Field.Recovery.HP set value 3
+    data modify storage reizo_mcfunc_engin:item Field.Recovery.MP set value 3
     # いつでも食べられるかどうか
     data modify storage reizo_mcfunc_engin:item Field.CanAlwaysEat set value 0b
