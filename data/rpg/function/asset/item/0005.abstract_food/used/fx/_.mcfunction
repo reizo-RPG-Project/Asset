@@ -6,6 +6,7 @@
 
 # FX
     # 音
+        execute if data storage reizo_mcfunc_engin:context this{IsDrink:1b} run return run playsound entity.generic.drink master @s ~ ~ ~ 0.7 1
         playsound entity.generic.eat master @s ~ ~ ~ 0.7 1
     # パーティクル
         # パーティクルにアイテムの見た目を使いたいのでitem_modelを取得

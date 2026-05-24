@@ -18,6 +18,8 @@
     data modify storage reizo_mcfunc_engin:item Register.Slot set value ["mainhand", "offhand"]
 
 # フィールド
+    # 飲み物かどうか boolean
+    data modify storage reizo_mcfunc_engin:item Field.IsDrink set value 0b
     # 回復量
     # data modify storage reizo_mcfunc_engin:item Field.Recovery set value 1
     # いつでも食べられるかどうか
