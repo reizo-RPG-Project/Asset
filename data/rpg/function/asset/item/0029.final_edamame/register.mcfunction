@@ -23,7 +23,7 @@
     # カウント
     data modify storage reizo_mcfunc_engin:item Field.Count set value 3
     # 回復量
-    data modify storage reizo_mcfunc_engin:item Field.Recovery set value 1000000000
+    data modify storage reizo_mcfunc_engin:item Field.Recovery.HP set value 1000000000
     # いつでも食べられるかどうか
     data modify storage reizo_mcfunc_engin:item Field.CanAlwaysEat set value 0b
     # FX
