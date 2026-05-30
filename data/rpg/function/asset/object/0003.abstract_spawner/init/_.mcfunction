@@ -6,10 +6,6 @@
 
 # ID割り当て
 function reizo_mcfunc_engin:api/id/allocate
-execute store result storage reizo_mcfunc_engin:context this.ScoreID int 1 run scoreboard players get @s reizo_mcfunc_Engin.ScoreID
-
-# contexにFieldを移動
-data modify storage reizo_mcfunc_engin:context data.Field set from storage reizo_mcfunc_engin:object Field
 
 # フィールドの適応
     function rpg:asset/object/0003.abstract_spawner/common/field/delay
