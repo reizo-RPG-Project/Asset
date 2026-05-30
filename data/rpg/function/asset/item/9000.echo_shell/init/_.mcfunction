@@ -4,4 +4,5 @@
 #
 # @within function reizo_mcfunc_engin:asset/item/.manager/init/run.m
 
-# Init処理
+# 親クラスのメソッドを呼ぶ
+function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"init/_"}
