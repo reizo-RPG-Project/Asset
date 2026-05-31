@@ -4,6 +4,9 @@
 #
 # @within function rpg:asset/item/9000.echo_shell/tick/_
 
+# しゃがんでる
+execute if score @s reizo_mcfunc_Engin.Sneaking matches 1.. run return run function rpg:asset/item/9000.echo_shell/tick/used/show_entity_lore/_
+
 # 何も来ていない。
 execute if entity @s[tag=!RPG.Item.9000.IsCalling] run return run function rpg:asset/item/9000.echo_shell/tick/used/not_calling
 

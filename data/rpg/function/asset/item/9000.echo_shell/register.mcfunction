@@ -14,7 +14,7 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value [{"text":"エコー･シェル",font:"default"}]
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"耳を傾け、話せばもう片方のエコー･シェルを持つ者と会話できる",color:"gray",italic:0b},{"text":"両者の意思が無ければ会話は出来ない。",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"耳を傾け、話せばもう片方のエコー･シェルを持つ者と会話できる",color:"gray",italic:0b},{"text":"しゃがみながら相手を見れば情報を取得できる。",color:"gray",italic:0b}]
     # 消費アイテム
     # ({animation: (block | bow | brush | crossbow | drink | eat | none | spear | spyglass | toot_horn),consume_seconds:(float型),has_consume_particles:(boolean型),on_consume_effects:(TextComponentsString[])})
     data modify storage reizo_mcfunc_engin:item Register.Consumable set value {"animation":"none","consume_seconds":2147483647}
