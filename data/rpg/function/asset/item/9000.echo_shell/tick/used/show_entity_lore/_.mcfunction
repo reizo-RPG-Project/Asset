@@ -22,7 +22,7 @@ execute unless entity @n[tag=RPG.Item.9000.Target] run return fail
         data modify storage reizo_mcfunc_engin:context this.Lore.HP set value ["",{"text":"\uE007",font:"icon/_"},{"text":"最大体力: "},{storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.HP",color:"green"},"\n"]
         execute if data storage reizo_mcfunc_engin:context this.TargetData.STR run data modify storage reizo_mcfunc_engin:context this.Lore.STR set value ["",{"text":"\uE003",font:"icon/_"},{"text":"物理攻撃力: "},{storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.STR",color:"green"},"\n"]
     # 実際の表示
-    tellraw @a [{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.Name",interpret:true},{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.HP",interpret:true},{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.STR",interpret:true},{storage:"reizo_mcfunc_engin:context",nbt:"this.Lore.Lore",interpret:true}]
+    tellraw @a [{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.Name",interpret:true},{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.HP",interpret:true},{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.STR",interpret:true},"------------------------------------\n",{storage:"reizo_mcfunc_engin:context",nbt:"this.Lore.Lore",interpret:true}]
 
 # お掃除
     data remove storage reizo_mcfunc_engin:context this.TargetData
