@@ -5,4 +5,4 @@
 # @within function rpg:asset/mob/0002.abstract_enemy/in_seriously/_
 
 # 1bに
-data modify entity @s data.Field.GotSeriously set value 1b
+data modify storage reizo_mcfunc_engin:context this.GotSeriously set value 1b
