@@ -25,3 +25,5 @@
     # data modify storage reizo_mcfunc_engin:mob Field.DEF set value 50
     # 本気モード
     # data modify storage reizo_mcfunc_engin:mob Field.Seriously set value 1b
+    # 説明文
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"abstract"}]
