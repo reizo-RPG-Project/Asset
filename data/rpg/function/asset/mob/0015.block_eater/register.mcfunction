@@ -22,6 +22,6 @@
     # DEF
     data modify storage reizo_mcfunc_engin:mob Field.DEF set value 1
     # 説明文
-    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"これを見られるなんて！なんとも珍しい...\n"},{"text":"今が攻撃のチャンス！...でした。次を狙いましょう！"}]
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"これが本体です！体力も防御力も低い！\n"},{"text":"今が攻撃のチャンス！...でした。次を狙いましょう！"}]
     # アイコンID
     data modify storage reizo_mcfunc_engin:mob Field.IconID set value 2
