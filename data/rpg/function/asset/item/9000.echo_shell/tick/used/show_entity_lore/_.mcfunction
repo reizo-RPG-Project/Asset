@@ -16,7 +16,7 @@ execute unless entity @n[tag=RPG.Item.9000.Target] run return fail
     data modify storage reizo_mcfunc_engin:context this.TargetData set from entity @n[tag=RPG.Item.9000.Target] data.Field
     # 基本データ
     # 名前
-        data modify storage reizo_mcfunc_engin:context this.Lore.Name set value ["",{"text":"名前: "},{"selector":"@n[tag=RPG.Item.9000.Target]"},"\n"]
+        data modify storage reizo_mcfunc_engin:context this.Lore.Name set value ["",{"text":"名前: "},{"entity":"@n[tag=RPG.Item.9000.Target]",nbt:"CustomName"},"\n"]
         execute if data storage reizo_mcfunc_engin:context this.TargetData.IconID run data modify storage reizo_mcfunc_engin:context this.Lore.Name insert 2 value {storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.IconID",font:"icon/enemies"}
     # 説明文
         data modify storage reizo_mcfunc_engin:context this.Lore.Lore set from storage reizo_mcfunc_engin:context this.TargetData.Lore
