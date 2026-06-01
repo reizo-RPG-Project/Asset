@@ -29,6 +29,6 @@
     # 本気モード
     data modify storage reizo_mcfunc_engin:mob Field.Seriously set value 1b
     # 説明文
-    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"盗賊です。よく店の物を盗られるのでウンザリですよホント。\n"},{"text":"彼らは自分の魔力で死にかけから最後の力を出してきます。気を付けて！"}]
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"盗賊です。よく店の物を盗られるのでウンザリですよホント！\n"},{"text":"彼らは自分の魔力で死にかけから最高出力で来ます。油断せずに！"}]
     # アイコンID
     data modify storage reizo_mcfunc_engin:mob Field.IconID set value 1
