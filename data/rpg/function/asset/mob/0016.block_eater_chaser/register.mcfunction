@@ -11,7 +11,13 @@
     data modify storage reizo_mcfunc_engin:mob Register.Final set value 1b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
+    # 名前 String型
+    data modify storage reizo_mcfunc_engin:mob Register.Name set value "ブロックイータァ"
 
 # フィールド
     # HP
     data modify storage reizo_mcfunc_engin:mob Field.HP set value 3
+    # 説明文
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"ブロックを食い荒らすモンスターです。\n"},{"text":"近づくと地上に出てくるのでそこを攻撃しましょう！"}]
+    # アイコンID
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 3

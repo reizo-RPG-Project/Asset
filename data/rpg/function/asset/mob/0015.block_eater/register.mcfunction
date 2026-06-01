@@ -12,7 +12,7 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
     # 名前 String型
-    data modify storage reizo_mcfunc_engin:mob Register.Name set value "ブロックイータァ"
+    data modify storage reizo_mcfunc_engin:mob Register.Name set value "ブロックイータァ(本体)"
 
 # フィールド
     # HP
@@ -21,3 +21,7 @@
     data modify storage reizo_mcfunc_engin:mob Field.STR set value 25
     # DEF
     data modify storage reizo_mcfunc_engin:mob Field.DEF set value 1
+    # 説明文
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"これを見られるなんて！なんとも珍しい...\n"},{"text":"今が攻撃のチャンス！でした...次を狙いましょう！"}]
+    # アイコンID
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 2
