@@ -24,8 +24,20 @@ execute unless entity @n[tag=RPG.Item.9000.Target] run return fail
     # ステータス類
         data modify storage reizo_mcfunc_engin:context this.Lore.HP set value ["",{"text":"\uE007",font:"icon/_"},{"text":"最大体力: "},{storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.HP",color:"green"},"\n"]
         execute if data storage reizo_mcfunc_engin:context this.TargetData.STR run data modify storage reizo_mcfunc_engin:context this.Lore.STR set value ["",{"text":"\uE003",font:"icon/_"},{"text":"物理攻撃力: "},{storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.STR",color:"green"},"\n"]
+        execute if data storage reizo_mcfunc_engin:context this.TargetData.INT run data modify storage reizo_mcfunc_engin:context this.Lore.INT set value ["",{"text":"\uE004",font:"icon/_"},{"text":"魔法攻撃力: "},{storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.INT",color:"green"},"\n"]
+        execute if data storage reizo_mcfunc_engin:context this.TargetData.DEF run data modify storage reizo_mcfunc_engin:context this.Lore.DEF set value ["",{"text":"\uE001",font:"icon/_"},{"text":"防御力: "},{storage:"reizo_mcfunc_engin:context",nbt:"this.TargetData.DEF",color:"green"},"\n"]
     # 実際の表示
-    tellraw @a [{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.Name",interpret:true},{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.HP",interpret:true},{"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.STR",interpret:true},"------------------------------------\n",{storage:"reizo_mcfunc_engin:context",nbt:"this.Lore.Lore",interpret:true}]
+    tellraw @a \
+    [\
+        {\
+        "storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.Name",interpret:true},\
+        {"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.HP",interpret:true},\
+        {"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.STR",interpret:true},\
+        {"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.INT",interpret:true},\
+        {"storage":"reizo_mcfunc_engin:context",nbt:"this.Lore.DEF",interpret:true},\
+        "------------------------------------\n",\
+        {storage:"reizo_mcfunc_engin:context",nbt:"this.Lore.Lore",interpret:true}\
+    ]
 
 # お掃除
     data remove storage reizo_mcfunc_engin:context this.TargetData
