@@ -28,3 +28,5 @@
     data modify storage reizo_mcfunc_engin:mob Field.DEF set value 100
     # 説明文
     data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"ごくごく普通のゾンビです。\n"},{"text":"そこまで強くはないですけど、飛び掛かり攻撃が少々厄介ですね。"}]
+    # アイコンID
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 0
