@@ -53,6 +53,7 @@
         # Object
         scoreboard objectives add RPG.Obj.0003.In_Hostil.Delay dummy
         scoreboard objectives add RPG.Obj.0003.HP dummy
+        scoreboard objectives add RPG.Obj.0003.ID dummy
         scoreboard objectives add RPG.Obj.0006.PlayerGetCount dummy
         scoreboard objectives add RPG.Obj.0009.Open.Close_Check_Time dummy
         # Item
