@@ -28,3 +28,7 @@
     data modify storage reizo_mcfunc_engin:mob Field.STR set value 8
     # DEF
     data modify storage reizo_mcfunc_engin:mob Field.DEF set value 85
+    # 説明文
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"ゾンビィの子供です。小柄な体を利用してすばしっこく動きます\n"},{"text":"...が、全体的な力は大人よりは低いので力で押し通しましょう！"}]
+    # アイコンID
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 0
