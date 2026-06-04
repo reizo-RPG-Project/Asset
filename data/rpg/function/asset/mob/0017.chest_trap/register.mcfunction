@@ -11,6 +11,8 @@
     data modify storage reizo_mcfunc_engin:mob Register.Final set value 1b
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
+    # 名前 String型
+    data modify storage reizo_mcfunc_engin:mob Register.Name set value "チェストラップ"
 
 # フィールド
     # HP
@@ -18,4 +20,6 @@
     # STR
     data modify storage reizo_mcfunc_engin:mob Field.STR set value 10
     # 説明文
-    # data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"abstract"}]
+    data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"...ややや！ﾋｰアブナイ！\n"},{"text":"実はこれ、見た目はチェストですけど生き物なんです。\n"},{"text":"巣を守るために開けると自爆してくるんですよ...\n"},{"text":"開けなければどうってことないので今のうちに倒しましょう！"}]
+    # アイコンID
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 4
