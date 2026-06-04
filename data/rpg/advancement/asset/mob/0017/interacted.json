@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "requirement":{
+            "trigger": "player_interacted_with_entity",
+            "conditions": {
+                "entity": {
+                    "type": "interaction",
+                    "nbt": {"data":{"Args":{"ID":"0017.chest_trap"}}}
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "rpg:asset/mob/0017.chest_trap/trigger/interacted"
+    }
+}
