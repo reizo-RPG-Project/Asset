@@ -16,5 +16,4 @@
     # attack処理
     execute if entity @p[tag=RPG.Victim,distance=..5] run function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"attack/_"}
     # 無くなる
-    setblock ~ ~ ~ air
-    function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"remove/_"}
+    function reizo_mcfunc_engin:api/call/_private.m {Type:"mob",Method:"remove/_"}

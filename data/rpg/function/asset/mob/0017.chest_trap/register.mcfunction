@@ -13,6 +13,8 @@
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
 
 # フィールド
+    # HP
+    data modify storage reizo_mcfunc_engin:mob Field.HP set value 1
     # STR
     data modify storage reizo_mcfunc_engin:mob Field.STR set value 10
     # 説明文
