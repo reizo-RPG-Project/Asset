@@ -1,11 +1,11 @@
-#> rpg:asset/mob/0009.tubo_bito/talk/give_shell/_
+#> rpg:asset/mob/0009.tubo_bito/talk/give/_
 #
 # 
 #
 # @within function rpg:asset/mob/0009.tubo_bito/talk/_
 
 # Give
-execute as @n[type=villager] at @s positioned ~ ~1.5 ~ run function rpg:asset/mob/0009.tubo_bito/talk/give_shell/give
+execute positioned ~ ~1.5 ~ run function rpg:asset/mob/0009.tubo_bito/talk/give/give
 
 # FX
     playsound entity.experience_orb.pickup master @s ~ ~ ~ 0.5 2 0

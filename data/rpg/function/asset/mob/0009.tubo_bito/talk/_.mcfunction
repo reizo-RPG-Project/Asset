@@ -13,7 +13,7 @@ execute if score @s RPG.Mob.0009.Talk matches 5 run return run tellraw @s [{stor
 execute if score @s RPG.Mob.0009.Talk matches 6 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"私の力の大部分も失われ、もうダンジョンに行くことも出来ないのです。"}]
 execute if score @s RPG.Mob.0009.Talk matches 7 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"でも...あなたに何か情報を伝えることは出来る。"}]
 execute if score @s RPG.Mob.0009.Talk matches 8 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"だから...この",color:"white"},{"text":"ダンジョンのカギ",color:"aqua"},{"text":"と",color:"white"},{"text":"貝殻",color:"yellow"},{"text":"を渡しておきます。"}]
-execute if score @s RPG.Mob.0009.Talk matches 9 run return run function rpg:asset/mob/0009.tubo_bito/talk/give_shell/_
+execute if score @s RPG.Mob.0009.Talk matches 9 run return run function rpg:asset/mob/0009.tubo_bito/talk/give/_
 execute if score @s RPG.Mob.0009.Talk matches 10 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"この貝殻を使えば私と離れていても話が出来る。"}]
 execute if score @s RPG.Mob.0009.Talk matches 11 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"私もこの貝殻から何かしら知識が出せれば..."}]
 execute if score @s RPG.Mob.0009.Talk matches 12 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"きっとあなたの役に立てる。"}]
