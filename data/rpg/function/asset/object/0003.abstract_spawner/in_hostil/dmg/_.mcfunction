@@ -20,5 +20,3 @@ execute if score @s RPG.Obj.0003.HP matches 0 run return run function reizo_mcfu
 particle trial_omen ~ ~ ~ 0.3 1.0 0.3 0 10
 execute if score @s RPG.Obj.0003.HP matches 2.. run function rpg:asset/object/0003.abstract_spawner/in_hostil/dmg/fx/normal
 execute if score @s RPG.Obj.0003.HP matches 1 run function rpg:asset/object/0003.abstract_spawner/in_hostil/dmg/fx/seriously
-
-tellraw @a "!"
