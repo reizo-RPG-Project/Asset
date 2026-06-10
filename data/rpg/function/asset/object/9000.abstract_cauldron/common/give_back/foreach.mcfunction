@@ -1,4 +1,4 @@
-#> rpg:asset/object/9000.abstract_cauldron/tick/give_back/foreach
+#> rpg:asset/object/9000.abstract_cauldron/common/give_back/foreach
 #
 # 
 #
@@ -15,4 +15,4 @@ function rpg:asset/object/9000.abstract_cauldron/common/give.m with storage reiz
     data remove storage reizo_mcfunc_engin:context this.GiveBack
 
 # 再帰
-execute if data storage reizo_mcfunc_engin:context this.Items[0] run function rpg:asset/object/9000.abstract_cauldron/tick/give_back/foreach
+execute if data storage reizo_mcfunc_engin:context this.Items[0] run function rpg:asset/object/9000.abstract_cauldron/common/give_back/foreach
