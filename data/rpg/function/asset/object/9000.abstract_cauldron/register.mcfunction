@@ -16,4 +16,4 @@
 
 #> フィールド
     # レシピ
-    data modify storage reizo_mcfunc_engin:object Field.Recipes append value {ItemID:{ID_0:"0006.fuji_apple",ID_1:"0006.fuji_apple",ID_2:"0006.fuji_apple"},result:{RecipeID:"test.0001"}}
+    data modify storage reizo_mcfunc_engin:object Field.Recipes append value {ItemID:{ID_0:"0006.fuji_apple",ID_1:"0006.fuji_apple",ID_2:"0006.fuji_apple"},result:{RecipeID:"0068.baked_apple"}}
