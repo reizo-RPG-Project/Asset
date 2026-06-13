@@ -8,7 +8,11 @@
 data modify storage reizo_mcfunc_engin:context this.SetItem.data set from storage reizo_mcfunc_engin:context this.Pools[0]
 
 # ループ回数を決める
-execute store result score $Item.0043.SetItem.Rolls RPG.Temp run data get storage reizo_mcfunc_engin:context this.SetItem.data.Rolls
+function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/set_roll/_
+tellraw @a {score:{name:"$Item.0043.SetItem.Rolls",objective:"RPG.Temp"}}
+
+# ループ回数が0以下だったらもう動かない
+execute if score $Item.0043.SetItem.Rolls RPG.Temp matches ..0 run return run function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/fail
 
 # 再帰でアイテムのデータをセット
 function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/loop

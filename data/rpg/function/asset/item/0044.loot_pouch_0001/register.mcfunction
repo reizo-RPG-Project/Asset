@@ -42,7 +42,10 @@
             ]\
         },\
         {\
-            Rolls:1,\
+            Rolls:{\
+                min:0,\
+                max:1\
+            },\
             Entries:[\
                 {\
                     Weight: 10,\
@@ -77,7 +80,10 @@
             ]\
         },\
         {\
-            Rolls:1,\
+            Rolls:{\
+                min:0,\
+                max:1\
+            },\
             Entries:[\
                 {\
                     Weight: 3,\
@@ -117,7 +123,10 @@
             ]\
         },\
         {\
-            Rolls:1,\
+            Rolls:{\
+                min:0,\
+                max:1\
+            },\
             Entries:[\
                 {\
                     Weight: 64,\
