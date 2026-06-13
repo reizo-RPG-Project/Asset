@@ -24,4 +24,5 @@ function rpg:asset/item/0001.abstract_item/init/lore/_
     # Loreの先頭に追加
     data modify entity @s Item.components."minecraft:lore" append from storage reizo_mcfunc_engin:context this.Init.Lore
     # お掃除
-    data remove storage reizo_mcfunc_engin:context Register.Lore
+        data remove storage reizo_mcfunc_engin:context Register.Lore
+        data remove storage reizo_mcfunc_engin:context this.Init.Lore
