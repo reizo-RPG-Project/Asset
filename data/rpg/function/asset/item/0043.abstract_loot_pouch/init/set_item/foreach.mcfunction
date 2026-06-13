@@ -9,7 +9,6 @@ data modify storage reizo_mcfunc_engin:context this.SetItem.data set from storag
 
 # ループ回数を決める
 function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/set_roll/_
-tellraw @a {score:{name:"$Item.0043.SetItem.Rolls",objective:"RPG.Temp"}}
 
 # ループ回数が0以下だったらもう動かない
 execute if score $Item.0043.SetItem.Rolls RPG.Temp matches ..0 run return run function rpg:asset/item/0043.abstract_loot_pouch/init/set_item/fail
