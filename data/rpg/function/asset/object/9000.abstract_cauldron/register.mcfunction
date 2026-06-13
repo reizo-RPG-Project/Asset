@@ -17,3 +17,5 @@
 #> フィールド
     # レシピ
     data modify storage reizo_mcfunc_engin:object Field.Recipes append value {ItemID:{ID_0:"0006.fuji_apple",ID_1:"0006.fuji_apple",ID_2:"0006.fuji_apple"},result:{RecipeID:"0068.baked_apple"}}
+    # data modify storage reizo_mcfunc_engin:object Field.Recipes append value {ItemID:{ID_0:"0007.ramune",ID_1:"0007.ramune",ID_2:"0007.ramune"},result:{RecipeID:"0068.baked_apple"}} 圧縮ラムネっという予定
+    # data modify storage reizo_mcfunc_engin:object Field.Recipes append value {ItemID:{ID_0:"0019.carrot",ID_1:"0019.carrot",ID_2:"0019.carrot"},result:{RecipeID:"0068.baked_apple"}} 焼きニンジン
