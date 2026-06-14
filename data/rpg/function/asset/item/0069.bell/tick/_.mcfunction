@@ -8,4 +8,4 @@
 function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"tick/_"}
 
 # ダメージを受けた
-execute if data entity @s {HurtTime:10s} run function rpg:asset/item/0069.bell/tick/hurt
+execute if data entity @s {HurtTime:9s} run function rpg:asset/item/0069.bell/tick/hurt
