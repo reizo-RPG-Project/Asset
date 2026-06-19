@@ -16,3 +16,6 @@
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text[-2].text set from storage reizo_mcfunc_engin:context this.PlayingRecordData.IconID
     # お掃除
     data remove storage reizo_mcfunc_engin:item Register
+
+# お掃除
+tag @s remove RPG.Obj.0017.PlayPlayer

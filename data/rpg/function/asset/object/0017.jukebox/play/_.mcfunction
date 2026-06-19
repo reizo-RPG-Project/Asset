@@ -4,6 +4,9 @@
 #
 # @within function rpg:asset/object/0017.jukebox/tick/_
 
+# すでに音楽が流れている場合は一度吐き出す
+execute if data storage reizo_mcfunc_engin:context this.PlayingRecordData run function rpg:asset/object/0017.jukebox/common/back_record.m with storage reizo_mcfunc_engin:context this.PlayingRecordData
+
 # 流す
 function rpg:asset/object/0017.jukebox/play/play.m with storage reizo_mcfunc_engin:context this.RecordItem
 

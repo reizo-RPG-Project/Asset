@@ -1,4 +1,4 @@
-#> rpg:asset/object/0017.jukebox/tick/back_record.m
+#> rpg:asset/object/0017.jukebox/common/back_record.m
 #
 # 
 #
