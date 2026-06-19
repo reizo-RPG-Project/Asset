@@ -7,4 +7,4 @@
 # ブロック当たり判定設置
 setblock ~ ~ ~ barrier
 
-execute align xyz run summon block_display ~0.5 ~ ~0.5 {block_state:{Name:"jukebox"}}
+execute align xyz run summon block_display ~ ~ ~ {block_state:{Name:"jukebox"}}
