@@ -14,15 +14,19 @@ execute if score @s RPG.Mob.0009.Talk matches 6 run return run tellraw @s [{stor
 execute if score @s RPG.Mob.0009.Talk matches 7 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"でも...あなたに何か情報を伝えることは出来る。"}]
 execute if score @s RPG.Mob.0009.Talk matches 8 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"だから...この",color:"white"},{"text":"ダンジョンのカギ",color:"aqua"},{"text":"と",color:"white"},{"text":"貝殻",color:"yellow"},{"text":"を渡しておきます。"}]
 execute if score @s RPG.Mob.0009.Talk matches 9 run return run function rpg:asset/mob/0009.tubo_bito/talk/give/_
-execute if score @s RPG.Mob.0009.Talk matches 10 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"この貝殻を使えば私と離れていても話が出来る。"}]
-execute if score @s RPG.Mob.0009.Talk matches 11 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"私もこの貝殻から何かしら知識が出せれば..."}]
-execute if score @s RPG.Mob.0009.Talk matches 12 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"きっとあなたの役に立てる。"}]
-execute if score @s RPG.Mob.0009.Talk matches 13 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"...今まで何度もあのモンスターを倒そうとした人はいました。"}]
-execute if score @s RPG.Mob.0009.Talk matches 14 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"でも...みなやられてしまった。"}]
-execute if score @s RPG.Mob.0009.Talk matches 15 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"どうか...お気を付けて..."}]
+execute if score @s RPG.Mob.0009.Talk matches 10 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"この貝殻は私とあなたを繋げる物です。"}]
+execute if score @s RPG.Mob.0009.Talk matches 11 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"私がここから出来るだけ情報を出してみます。"}]
+execute if score @s RPG.Mob.0009.Talk matches 12 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"それが役に立てばいいですが...頑張ります。"}]
+execute if score @s RPG.Mob.0009.Talk matches 13 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"...っと、ダンジョンに向かうその前に。"}]
+execute if score @s RPG.Mob.0009.Talk matches 14 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"まずはこの島の洞窟に向かって欲しいです。"}]
+execute if score @s RPG.Mob.0009.Talk matches 15 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"恐らく現在の装備ではあのモンスターに勝てないと思うので..."}]
+execute if score @s RPG.Mob.0009.Talk matches 16 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"モンスターの巣であるあの洞窟に向かい、装備を整えたほうがいいともいます。"}]
+execute if score @s RPG.Mob.0009.Talk matches 17 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"洞窟は...この道を少し戻った、メルさんの目の前にあります。"}]
+execute if score @s RPG.Mob.0009.Talk matches 18 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"大丈夫です。モンスターの巣と言ってもそこまで強いヤツはいないハズです。"}]
+execute if score @s RPG.Mob.0009.Talk matches 19 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"ではどうか...ご健闘を..."}]
 
 # 間に...
-execute if score @s RPG.Mob.0009.Talk matches 16..49 run return run tellraw @s "..."
+execute if score @s RPG.Mob.0009.Talk matches 20..49 run return run tellraw @s "..."
 
 # 裏テキスト(なんでこっちのほうが多いんだ？)
 execute if score @s RPG.Mob.0009.Talk matches 50 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[3]",interpret:true},{"text":"ふふ..."}]
