@@ -20,7 +20,7 @@ execute if score @s RPG.Mob.0009.Talk matches 12 run return run tellraw @s [{sto
 execute if score @s RPG.Mob.0009.Talk matches 13 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"...っと、ダンジョンに向かうその前に。"}]
 execute if score @s RPG.Mob.0009.Talk matches 14 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"まずはこの島の洞窟に向かって欲しいです。"}]
 execute if score @s RPG.Mob.0009.Talk matches 15 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"恐らく現在の装備ではあのモンスターに勝てないと思うので..."}]
-execute if score @s RPG.Mob.0009.Talk matches 16 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"モンスターの巣であるあの洞窟に向かい、装備を整えたほうがいいともいます。"}]
+execute if score @s RPG.Mob.0009.Talk matches 16 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"モンスターの巣であるあの洞窟に向かい、装備を整えましょう。"}]
 execute if score @s RPG.Mob.0009.Talk matches 17 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"洞窟は...この道を少し戻った、メルさんの目の前にあります。"}]
 execute if score @s RPG.Mob.0009.Talk matches 18 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"大丈夫です。モンスターの巣と言ってもそこまで強いヤツはいないハズです。"}]
 execute if score @s RPG.Mob.0009.Talk matches 19 run return run tellraw @s [{storage:"reizo_mcfunc_engin:context",nbt:"this.FaceData[0]",interpret:true},{"text":"ではどうか...ご健闘を..."}]
