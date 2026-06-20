@@ -12,7 +12,7 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"C418 - testers?"}
+    data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"aaaaaaaaaaa"}
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"11"}]
 
