@@ -20,7 +20,7 @@
     # Record
     data modify storage reizo_mcfunc_engin:item Field.RecordData.ID set from storage reizo_mcfunc_engin:context Args.ID
     data modify storage reizo_mcfunc_engin:item Field.RecordData.name set value "music_disc.blocks"
-    data modify storage reizo_mcfunc_engin:item Field.RecordData.IconID set value "\u0002"
+    data modify storage reizo_mcfunc_engin:item Field.RecordData.IconID set value "\u0003"
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 5
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"

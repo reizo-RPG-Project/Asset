@@ -20,7 +20,7 @@
     # Record
     data modify storage reizo_mcfunc_engin:item Field.RecordData.ID set value "0071.record_c418_13"
     data modify storage reizo_mcfunc_engin:item Field.RecordData.name set value "music_disc.13"
-    data modify storage reizo_mcfunc_engin:item Field.RecordData.IconID set value "\u0000"
+    data modify storage reizo_mcfunc_engin:item Field.RecordData.IconID set value "\u0001"
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 5
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
