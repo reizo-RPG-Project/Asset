@@ -21,6 +21,7 @@
     data modify storage reizo_mcfunc_engin:item Field.RecordData.ID set value "0072.record_c418_cat"
     data modify storage reizo_mcfunc_engin:item Field.RecordData.name set value "music_disc.cat"
     data modify storage reizo_mcfunc_engin:item Field.RecordData.IconID set value "\u0002"
+    data modify storage reizo_mcfunc_engin:item Field.RecordData.LengthInTick set value 3700
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 5
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"

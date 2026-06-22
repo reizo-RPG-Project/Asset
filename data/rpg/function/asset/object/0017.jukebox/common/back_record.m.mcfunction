@@ -15,7 +15,7 @@ scoreboard players set $MotionPower reizo_mcfunc_Engin.Temp 100
 execute positioned ~ ~1 ~ as @n[type=item] run function reizo_libs:motion/pounce_on
 
 # 曲ストップ
-function rpg:asset/object/0017.jukebox/common/all_stop
+execute as @a[tag=RPG.Obj.0017.PlayPlayer] run function rpg:asset/object/0017.jukebox/common/all_stop
 
 # 演出
     particle white_smoke ~ ~1.25 ~ 0.1 0.1 0.1 0 15
@@ -23,3 +23,5 @@ function rpg:asset/object/0017.jukebox/common/all_stop
 
 # お掃除
     data remove storage reizo_mcfunc_engin:context this.PlayingRecordData
+    execute as @a[tag=RPG.Obj.0017.PlayPlayer] run function #oh_my_dat:please
+    data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record

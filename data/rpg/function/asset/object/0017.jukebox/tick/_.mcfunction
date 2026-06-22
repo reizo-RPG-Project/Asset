@@ -9,3 +9,6 @@ execute if data entity @s interaction.player run function rpg:asset/object/0017.
 
 # レコード再生
 execute if data storage reizo_mcfunc_engin:context this.RecordItem run function rpg:asset/object/0017.jukebox/play/_
+
+# 再生中
+execute if data storage reizo_mcfunc_engin:context this.PlayingRecordData run function rpg:asset/object/0017.jukebox/playing/_

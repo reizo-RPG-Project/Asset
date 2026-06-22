@@ -4,8 +4,14 @@
 #
 # @within function rpg:asset/object/0017.jukebox/play/_
 
+# 流す
+function rpg:asset/object/0017.jukebox/common/play.m with storage reizo_mcfunc_engin:context this.RecordItem
+
 # お願いOMD!
     function #oh_my_dat:please
+
+# リセット
+data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record
 
 # UIセット
     # register
