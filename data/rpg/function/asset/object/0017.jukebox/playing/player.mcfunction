@@ -6,7 +6,7 @@
 
 # 一定期間で音符を出す
     scoreboard players operation $Temp RPG.Obj.0017.Length = @s RPG.Obj.0017.Length
-    scoreboard players operation $Temp RPG.Obj.0017.Length %= #10 RPG.Const
+    scoreboard players operation $Temp RPG.Obj.0017.Length %= #20 RPG.Const
     execute if score $Temp RPG.Obj.0017.Length matches 0 run particle note ~ ~1 ~ 0.0 0.1 0.0 1 1
     scoreboard players reset $Temp RPG.Obj.0017.Length
 
