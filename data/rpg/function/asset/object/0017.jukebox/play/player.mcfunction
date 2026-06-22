@@ -17,9 +17,9 @@ data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record
     # register
     function rpg:asset/object/0017.jukebox/play/get_item_register.m with storage reizo_mcfunc_engin:context this.PlayingRecordData
     # データセット
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text set value [{"text":"再生中: ",color:"green"},{"text":"ID",font:"icon/record","shadow_color":0,color:"white"},{"text":"name"}]
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text set value ["",{"text":"ID",font:"icon/record","shadow_color":0,color:"white"},{"text":"name"}]
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text[-1] set from storage reizo_mcfunc_engin:item Register.Name
-    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text[-1].font set value "monocraft"
+    data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text[-1].font set value "record/font"
     data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record.Text[-2].text set from storage reizo_mcfunc_engin:context this.PlayingRecordData.IconID
     # 文字数によるスペースの追加数
         # 文字数の取得
