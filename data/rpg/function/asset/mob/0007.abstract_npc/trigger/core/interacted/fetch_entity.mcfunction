@@ -15,3 +15,6 @@ function rpg:asset/mob/0007.abstract_npc/talk/add.m with storage reizo_mcfunc_en
 
 # メソッド実行
 execute as @p run function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"talk/_"}
+
+# 音
+playsound minecraft:entity.armor_stand.place master @p ~ ~ ~ 1 2
