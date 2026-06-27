@@ -24,3 +24,5 @@
     data modify storage reizo_mcfunc_engin:item Field.STR set value 19
     # 攻撃速度
     data modify storage reizo_mcfunc_engin:item Field.AttackSpeed set value -1.6
+    # 酸化進行度の初期値
+    data modify storage reizo_mcfunc_engin:item Field.oxidationProgress set value 1
