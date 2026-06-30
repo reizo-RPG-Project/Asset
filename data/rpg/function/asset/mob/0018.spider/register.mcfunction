@@ -26,4 +26,4 @@
     # 説明文
     data modify storage reizo_mcfunc_engin:mob Field.Lore set value [{"text":"クモです！ﾋｰ怖い怖い...\n"},{"text":"私虫嫌いで...えと、此奴はクモの糸を吐いてきます。触れるととても離れるのは困難なので気を付けて！"}]
     # アイコンID
-    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 0
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 5
