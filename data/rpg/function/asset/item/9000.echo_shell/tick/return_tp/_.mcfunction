@@ -12,4 +12,4 @@
     execute if score @s reizo_mcfunc_Engin.Sneaking matches 180 run return run tellraw @s [{"text":"帰還まで残り: "},{"text":"1秒",color:"red"}]
 
 # tp
-execute if score @s reizo_mcfunc_Engin.Sneaking matches 200 run function rpg:asset/item/9000.echo_shell/tick/return_tp/tp
+execute if score @s reizo_mcfunc_Engin.Sneaking matches 200 positioned 21 18 -2 run function rpg:asset/item/9000.echo_shell/tick/return_tp/tp
