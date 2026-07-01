@@ -15,6 +15,8 @@
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"C418 - chirp"}
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"レコード"}]
+    # Tick処理をするかどうか。 boolean型 (オプション)
+    data modify storage reizo_mcfunc_engin:item Register.IsTicking set value 0b
 
 #> フィールド
     # Record
