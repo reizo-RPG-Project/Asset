@@ -50,6 +50,7 @@
         scoreboard objectives add RPG.Mob.0013.Talk dummy
         scoreboard objectives add RPG.Mob.0014.Talk dummy
         scoreboard objectives add RPG.Mob.0015.Timer dummy
+        scoreboard objectives add RPG.Mob.0019.ShuffleTimer dummy
         # Object
         scoreboard objectives add RPG.Obj.0003.In_Hostil.Delay dummy
         scoreboard objectives add RPG.Obj.0003.HP dummy
