@@ -1,8 +1,8 @@
-#> rpg:asset/item/0030.copper_sword/is_clicked/unaffected
+#> rpg:asset/item/0030.copper_sword/charged/unaffected
 #
 # 
 #
-# @within function rpg:asset/item/0030.copper_sword/is_clicked/_
+# @within function rpg:asset/item/0030.copper_sword/charged/_
 
 # リセット
     data modify storage reizo_mcfunc_engin:context this.oxidationProgress set value 1

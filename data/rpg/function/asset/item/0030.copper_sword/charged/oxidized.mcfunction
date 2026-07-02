@@ -1,8 +1,8 @@
-#> rpg:asset/item/0030.copper_sword/is_clicked/oxidized
+#> rpg:asset/item/0030.copper_sword/charged/oxidized
 #
 # 
 #
-# @within function rpg:asset/item/0030.copper_sword/is_clicked/_
+# @within function rpg:asset/item/0030.copper_sword/charged/_
 
 # 見た目変える
 item modify entity @s weapon.mainhand {function:"set_components",components:{item_model:"item/0030/oxidized"}}
