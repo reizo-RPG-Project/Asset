@@ -31,3 +31,8 @@ data modify storage reizo_mcfunc_engin:context this.Shuffle.List set value [0,1,
     data remove storage reizo_mcfunc_engin:context this.Shuffle.index
     scoreboard players reset $Mob.0019.ShuffleCountTemp
     scoreboard players reset @s RPG.Mob.0019.ShuffleTimer
+
+# 演出
+    playsound entity.fox.sniff master @p[distance=..1.5] ~ ~ ~ 2 1
+    playsound entity.fox.eat master @p[distance=..1.5] ~ ~ ~ 2 1
+    execute at @p[distance=..1.5] run particle poof ~ ~ ~ 0.1 0.1 0.1 0 5
