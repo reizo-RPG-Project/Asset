@@ -23,3 +23,7 @@
 #> フィールド
     # IconID Int型
     data modify storage reizo_mcfunc_engin:effect Field.IconID set value "0001"
+    # DEF Int型
+    data modify storage reizo_mcfunc_engin:effect Field.DEF set value 5
+    # STR Int型
+    data modify storage reizo_mcfunc_engin:effect Field.STR set value 3

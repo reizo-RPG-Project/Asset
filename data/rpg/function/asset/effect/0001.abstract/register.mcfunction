@@ -21,5 +21,19 @@
     # data modify storage reizo_mcfunc_engin:effect Register.Trigger append value ""
 
 #> フィールド
-    # IconID Int型
+    # IconID String型
     data modify storage reizo_mcfunc_engin:effect Field.IconID set value "FFFF"
+    # HP_MAX Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.HP_MAX set value 10
+    # HP_regen Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.HP_regen set value 10
+    # MP_MAX Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.MP_MAX set value 10
+    # MP_regen Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.MP_regen set value 10
+    # DEF Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.DEF set value 10
+    # STR Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.STR set value 10
+    # INT Int型
+    # data modify storage reizo_mcfunc_engin:effect Field.INT set value 10
