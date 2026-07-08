@@ -14,4 +14,5 @@ item modify entity @s weapon.mainhand {function:"set_components",components:{ite
     playsound item.totem.use master @s ~ ~ ~ 0.4 1.7
     particle item{item:"oxidized_copper"} ~ ~1.5 ~ 0.5 0.5 0.5 0 75
 
-# TODO:何かしらのバフやら...バフ作らなきゃ...
+# バフ付与
+function reizo_mcfunc_engin:api/effect/give.m {ID:"0002.copper_power",namespace:"rpg"}
