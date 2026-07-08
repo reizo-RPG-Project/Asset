@@ -22,6 +22,6 @@
 
 #> フィールド
     # IconID String型
-    # data modify storage reizo_mcfunc_engin:effect Field.IconID set value "0002"
+    data modify storage reizo_mcfunc_engin:effect Field.IconID set value "0002"
     # HP_regen Int型
     data modify storage reizo_mcfunc_engin:effect Field.HP_regen set value 25
