@@ -4,6 +4,9 @@
 #
 # @within function rpg:asset/effect/0001.abstract/init/_
 
+# の前に初期Durationが1なら先にステータス更新を行う
+execute if data storage reizo_mcfunc_engin:context data.Registry{Duration:1} run function #rpg:status_update
+
 #> ステータスリセット
     # HP_MAX
     execute store result score $HP_MAX RPG.Temp run data get storage reizo_mcfunc_engin:context this.HP_MAX
