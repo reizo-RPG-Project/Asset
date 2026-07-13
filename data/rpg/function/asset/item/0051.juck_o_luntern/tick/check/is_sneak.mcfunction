@@ -17,8 +17,8 @@ execute if score @s reizo_mcfunc_Engin.Sneaking matches 2.. run return 0
     item modify entity @s armor.head {function:"set_components",components:{item_model:"minecraft:jack_o_lantern"}}
 
 # ステータスアップ
-    scoreboard players add @s RPG.HP_MAX 10
-    scoreboard players add @s RPG.DEF 10
+    scoreboard players add @s RPG.Bonus.HP_MAX 10
+    scoreboard players add @s RPG.Bonus.DEF 10
 
 # 宣言
 data modify storage reizo_mcfunc_engin:context this.ResetInit set value 1b

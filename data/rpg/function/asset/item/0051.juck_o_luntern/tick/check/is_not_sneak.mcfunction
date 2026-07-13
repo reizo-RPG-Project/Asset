@@ -8,8 +8,8 @@
 item modify entity @s armor.head {function:"set_components",components:{item_model:"minecraft:carved_pumpkin"}}
 
 # ステータスを戻す
-    scoreboard players remove @s RPG.HP_MAX 10
-    scoreboard players remove @s RPG.DEF 10
+    scoreboard players remove @s RPG.Bonus.HP_MAX 10
+    scoreboard players remove @s RPG.Bonus.DEF 10
 
 # お掃除
 data remove storage reizo_mcfunc_engin:context this.ResetInit
