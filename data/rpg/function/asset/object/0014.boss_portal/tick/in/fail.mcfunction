@@ -6,6 +6,6 @@
 
 # 飛ばして戻す
     scoreboard players set $x hb.Motion 0
-    scoreboard players set $y hb.Motion 8000
+    scoreboard players set $y hb.Motion 1500
     scoreboard players set $z hb.Motion 0
     function #p_motion:xyz
