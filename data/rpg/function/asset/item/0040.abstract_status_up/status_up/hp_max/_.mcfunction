@@ -11,7 +11,7 @@ execute if data storage reizo_mcfunc_engin:context this.Equipped.HP_MAX run retu
 execute store result score $HP_MAX RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context data.Field.HP_MAX
 
 # 足し算
-scoreboard players operation @s RPG.HP_MAX += $HP_MAX RPG.Item.0040.Temp
+scoreboard players operation @s RPG.Bonus.HP_MAX += $HP_MAX RPG.Item.0040.Temp
 
 # お掃除
 scoreboard players reset $HP_MAX RPG.Item.0040.Temp

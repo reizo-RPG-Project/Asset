@@ -11,7 +11,7 @@ execute if data storage reizo_mcfunc_engin:context this.Equipped.DEF run return 
 execute store result score $DEF RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context data.Field.DEF
 
 # 足し算
-scoreboard players operation @s RPG.DEF += $DEF RPG.Item.0040.Temp
+scoreboard players operation @s RPG.Bonus.DEF += $DEF RPG.Item.0040.Temp
 
 # お掃除
 scoreboard players reset $DEF RPG.Item.0040.Temp
