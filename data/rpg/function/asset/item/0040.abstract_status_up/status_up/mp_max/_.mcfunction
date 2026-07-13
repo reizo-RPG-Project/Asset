@@ -11,10 +11,13 @@ execute if data storage reizo_mcfunc_engin:context this.Equipped.MP_MAX run retu
 execute store result score $MP_MAX RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context data.Field.MP_MAX
 
 # 足し算
-scoreboard players operation @s RPG.MP_MAX += $MP_MAX RPG.Item.0040.Temp
+scoreboard players operation @s RPG.Bonus.MP_MAX += $MP_MAX RPG.Item.0040.Temp
 
 # お掃除
 scoreboard players reset $MP_MAX RPG.Item.0040.Temp
 
 # 上昇したステータスの値を取得
 data modify storage reizo_mcfunc_engin:context this.Equipped.MP_MAX set from storage reizo_mcfunc_engin:context data.Field.MP_MAX
+
+# ステータスを更新
+tag @s add RPG.StatusUpdate
