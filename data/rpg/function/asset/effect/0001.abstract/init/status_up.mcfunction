@@ -35,4 +35,6 @@
     scoreboard players reset $STR
     scoreboard players reset $INT
 
+
+# ステータスの更新
 function rpg:core/tick/player/status/update

@@ -18,3 +18,6 @@ scoreboard players reset $INT RPG.Item.0040.Temp
 
 # 上昇したステータスの値を取得
 data modify storage reizo_mcfunc_engin:context this.Equipped.INT set from storage reizo_mcfunc_engin:context data.Field.INT
+
+# ステータスを更新
+tag @s add RPG.StatusUpdate

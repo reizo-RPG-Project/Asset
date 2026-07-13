@@ -13,3 +13,6 @@ scoreboard players operation @s RPG.Bonus.MP_MAX -= $MP_MAX RPG.Item.0040.Temp
 # お掃除
     scoreboard players reset $MP_MAX RPG.Item.0040.Temp
     data remove storage reizo_mcfunc_engin:context this.Equipped.MP_MAX
+
+# ステータスを更新
+tag @s add RPG.StatusUpdate

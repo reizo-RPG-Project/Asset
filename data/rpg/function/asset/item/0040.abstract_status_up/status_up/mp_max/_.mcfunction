@@ -18,3 +18,6 @@ scoreboard players reset $MP_MAX RPG.Item.0040.Temp
 
 # 上昇したステータスの値を取得
 data modify storage reizo_mcfunc_engin:context this.Equipped.MP_MAX set from storage reizo_mcfunc_engin:context data.Field.MP_MAX
+
+# ステータスを更新
+tag @s add RPG.StatusUpdate

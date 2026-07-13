@@ -13,3 +13,6 @@ scoreboard players operation @s RPG.Bonus.DEF -= $DEF RPG.Item.0040.Temp
 # お掃除
     scoreboard players reset $DEF RPG.Item.0040.Temp
     data remove storage reizo_mcfunc_engin:context this.Equipped.DEF
+
+# ステータスを更新
+tag @s add RPG.StatusUpdate
