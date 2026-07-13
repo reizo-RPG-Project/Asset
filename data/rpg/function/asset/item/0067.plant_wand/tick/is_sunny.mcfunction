@@ -5,8 +5,9 @@
 # @within function rpg:asset/item/0067.plant_wand/tick/_
 
 # ステータスアップ
-    scoreboard players add @s RPG.INT 2
-    scoreboard players add @s RPG.MP_MAX 5
+    scoreboard players add @s RPG.Bonus.INT 2
+    scoreboard players add @s RPG.Bonus.MP_MAX 5
+    tag @s add RPG.StatusUpdate
 
 # 演出
     playsound block.bell.use master @s ~ ~ ~ 0.5 2
