@@ -22,7 +22,7 @@
 
 #> フィールド
     # IconID String型
-    data modify storage reizo_mcfunc_engin:effect Field.IconID set value "FFFF"
+    data modify storage reizo_mcfunc_engin:effect Field.IconID set value "0003"
     # HP_MAX Int型
     data modify storage reizo_mcfunc_engin:effect Field.HP_MAX set value 10
     # DEF Int型
