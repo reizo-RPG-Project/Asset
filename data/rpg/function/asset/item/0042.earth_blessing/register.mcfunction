@@ -22,3 +22,5 @@
     # レア度
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Value set value 3
     data modify storage reizo_mcfunc_engin:item Field.Rarity.Color set value "yellow"
+    # エフェクト
+    data modify storage reizo_mcfunc_engin:item Field.Effects append value {"ID":"0004.earth_blessing",namespace:"rpg"}

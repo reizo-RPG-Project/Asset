@@ -11,8 +11,11 @@
 # Countのセット
 data modify entity @s Item.components."minecraft:max_stack_size" set from storage reizo_mcfunc_engin:context this.Count
 
-# ステータスによる説明文の変更
-function rpg:asset/item/0001.abstract_item/init/lore/_
+# 説明文セット
+    # ステータスによる説明文の変更
+    function rpg:asset/item/0001.abstract_item/init/lore/_
+    # 与えるエフェクトによる説明文の変更
+    execute if data storage reizo_mcfunc_engin:context this.Effects run function rpg:asset/item/0001.abstract_item/init/lore/effect/_
 
 # レア度のセット
     # データを反映する。
