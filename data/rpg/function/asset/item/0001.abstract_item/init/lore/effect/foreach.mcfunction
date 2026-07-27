@@ -14,7 +14,7 @@ data remove storage reizo_mcfunc_engin:context this.Effects[0]
 data modify storage reizo_mcfunc_engin:context this.EffectLore.hover append from storage reizo_mcfunc_engin:effect Register.Lore
 
 # 説明文を構成する。
-    data modify storage reizo_mcfunc_engin:context this.EffectLore.data set value ["",{"text":"+",color:"green",italic:0b},{"text":"\uFFFF",font:"icon/effects",shadow_color:0,color:"white",italic:0b},{"text":"Name",color:"white",italic:0b}]
+    data modify storage reizo_mcfunc_engin:context this.EffectLore.data set value ["",{"text":"+",color:"green",italic:0b},{"text":"\uFFFF",font:"icon/effects",shadow_color:0,color:"white",italic:0b},{"text":"Name",color:"blue",italic:0b}]
     data modify storage reizo_mcfunc_engin:context this.EffectLore.data[-1].text set from storage reizo_mcfunc_engin:effect Register.Name.text
     function rpg:asset/item/0001.abstract_item/init/lore/effect/set_icon.m with storage reizo_mcfunc_engin:effect Field
     data modify storage reizo_mcfunc_engin:context this.EffectLore.data[2].text set from storage reizo_mcfunc_engin:context this.EffectLore.Icon
