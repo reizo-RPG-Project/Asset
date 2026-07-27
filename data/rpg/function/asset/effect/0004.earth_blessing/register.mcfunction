@@ -12,7 +12,7 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:effect Register.IsAbstract set value 0b
     # 名前 (TextComponentsString)
-    data modify storage reizo_mcfunc_engin:effect Register.Name set value {"text":"大地の癒し"}
+    data modify storage reizo_mcfunc_engin:effect Register.Name set value {"text":"大地の恵み"}
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:effect Register.Lore set value [{"text":""}]
     # 残り時間 Int型
