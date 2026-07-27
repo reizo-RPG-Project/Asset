@@ -15,11 +15,6 @@
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"らむね"}
     # 説明文 (TextComponentsString[])
     data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"ひらがなです、らむねは。",color:"gray",italic:0b},{"text":"※実在の人物とは一切関係ありません。",color:"gray",italic:0b}]
-    # 消費アイテム
-    # ({animation: (block | bow | brush | crossbow | drink | eat | none | spear | spyglass | toot_horn),consume_seconds:(float型),has_consume_particles:(boolean型),on_consume_effects:(TextComponentsString[])})
-    # data modify storage reizo_mcfunc_engin:item Register.Consumable set value {"animation":"none","consume_seconds":2147483647}
-    # 動作スロット (0b..26b, mainhand, offhand, head, chest, legs, feet)
-    data modify storage reizo_mcfunc_engin:item Register.Slot set value []
 
 # フィールド
     # レア度
