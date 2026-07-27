@@ -14,7 +14,10 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"銅の剣"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"どう？この剣。中々いいでしょう？",color:"gray",italic:0b}]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [\
+    {"text":"使い続けることにより、酸化が進む。",color:"gray",italic:0b},\
+    [{"text":"さらに使い錆が取れると、一時的に",color:"gray",italic:0b},{"text":"\u0001",font:"icon/effects",color:"white",italic:0b},{"text":"銅の力",color:"blue",italic:0b},{"text":"を得られる。",color:"gray",italic:0b}]\
+    ]
 
 # フィールド
     # レア度
@@ -26,3 +29,5 @@
     data modify storage reizo_mcfunc_engin:item Field.AttackSpeed set value -1.6
     # 酸化進行度の初期値
     data modify storage reizo_mcfunc_engin:item Field.oxidationProgress set value 1
+    # エフェクト
+    data modify storage reizo_mcfunc_engin:item Field.Effects append value {"ID":"0002.copper_power",namespace:"rpg"}
