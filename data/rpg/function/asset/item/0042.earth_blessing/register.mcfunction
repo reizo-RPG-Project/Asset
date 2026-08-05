@@ -14,7 +14,10 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value "地の恵み"
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [[{"text":"地に足がついている間は",color:"gray",italic:0b},{"text":"\u0003",font:"icon/effects",color:"white",italic:0b},{"text":"大地の恵み",color:"blue",italic:0b},{"text":"を受けられる。",color:"gray",italic:0b}]]
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [\
+    [{"text":"地面にいる間",color:"gray",italic:0b},{"text":"\u0003",font:"icon/effects",color:"white",italic:0b},{"text":"大地の恵み",color:"blue",italic:0b},{"text":"が付与される。",color:"gray",italic:0b}],\
+    [{"text":"大地を踏みしめて！大地を踏みしめろ！",color:"gray",italic:0b}]\
+    ]
     # アイテムを持っていない場合でも動作させるかどうか。 boolean型
     data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
 
