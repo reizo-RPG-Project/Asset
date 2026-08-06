@@ -2,7 +2,10 @@
 #
 # 
 #
-# @within function rpg:asset/object/0017.jukebox/tick/_
+# @within function
+# rpg:asset/object/0017.jukebox/play/player
+# rpg:asset/object/0017.jukebox/playing/player
+# rpg:asset/object/0017.jukebox/re_play/_
 
 # 現在此奴に流れているすべての楽曲を停止
 function rpg:asset/object/0017.jukebox/common/all_stop
