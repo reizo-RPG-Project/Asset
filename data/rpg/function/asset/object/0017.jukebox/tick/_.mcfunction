@@ -12,3 +12,6 @@ execute if data storage reizo_mcfunc_engin:context this.RecordItem run function 
 
 # 再生中
 execute if data storage reizo_mcfunc_engin:context this.PlayingRecordData run function rpg:asset/object/0017.jukebox/playing/_
+
+# 入ったな！
+execute as @a[tag=reizo_mcfunc_Engin.justJoined] run function rpg:asset/object/0017.jukebox/join/_

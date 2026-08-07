@@ -4,9 +4,6 @@
 #
 # @within function rpg:asset/object/0017.jukebox/playing/_
 
-# 再生中だったのなら再再生(なんか面白いな)
-execute if entity @s[tag=reizo_mcfunc_Engin.justJoined] run function rpg:asset/object/0017.jukebox/re_play/_
-
 # 一定期間で音符を出す
     scoreboard players operation $Temp RPG.Obj.0017.Length = @s RPG.Obj.0017.Length
     scoreboard players operation $Temp RPG.Obj.0017.Length %= #20 RPG.Const

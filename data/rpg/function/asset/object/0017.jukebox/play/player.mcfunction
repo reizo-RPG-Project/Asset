@@ -11,11 +11,7 @@ function rpg:asset/object/0017.jukebox/common/play.m with storage reizo_mcfunc_e
     function #oh_my_dat:please
 
 # リセット
-    data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Record
-    data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record
-
-# 流してる内容をセット
-data modify storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].Record set from storage reizo_mcfunc_engin:context this.RecordItem
+data remove storage oh_my_dat: _[-4][-4][-4][-4][-4][-4][-4][-4].UI.Record
 
 # UIセット
     # register
