@@ -1,8 +1,8 @@
-#> rpg:asset/item/0040.abstract_status_up/not_hold/status/mp_max/_
+#> rpg:asset/item/0040.abstract_status_up/common/reset/status/mp_max
 #
 # 
 #
-# @within function rpg:asset/item/0040.abstract_status_up/not_hold/_
+# @within function rpg:asset/item/0040.abstract_status_up/common/reset/_
 
 # 値を取得
 execute store result score $MP_MAX RPG.Item.0040.Temp run data get storage reizo_mcfunc_engin:context this.Equipped.MP_MAX

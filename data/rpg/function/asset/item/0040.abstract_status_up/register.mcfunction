@@ -11,6 +11,8 @@
     data modify storage reizo_mcfunc_engin:item Register.IsAbstract set value 1b
     # アイテムを持っていない場合でも動作させるかどうか。 boolean型
     data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
+    # ドロップ検知を行うか？ boolean型 (オプション)
+    data modify storage reizo_mcfunc_engin:item Register.Drop set value 1b
 
 #> フィールド
     # 最大体力
