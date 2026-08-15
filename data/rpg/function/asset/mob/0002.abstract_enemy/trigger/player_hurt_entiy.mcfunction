@@ -4,6 +4,9 @@
 #
 # @within advancement rpg:asset/mob/0002/player_hurt_entity
 
+# 武器を持ってたら動作を終了する。
+execute if predicate rpg:asset/item/0002/is_hold run return run advancement revoke @s only rpg:asset/mob/0002/player_hurt_entity
+
 # タグ付与
 tag @s add RPG.Attacker
 
