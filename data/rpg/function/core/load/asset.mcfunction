@@ -80,6 +80,7 @@
         scoreboard objectives add RPG.Obj.0018.z dummy
         scoreboard objectives add RPG.Obj.9000.Success dummy
         # Item
+        scoreboard objectives add RPG.Item.0002.AttackCharge dummy
         scoreboard objectives add RPG.Item.0010.Status dummy
         scoreboard objectives add RPG.Item.0040.Temp dummy
         scoreboard objectives add RPG.Item.0043.ID dummy

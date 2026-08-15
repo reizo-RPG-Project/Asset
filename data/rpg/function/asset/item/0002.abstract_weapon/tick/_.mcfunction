@@ -4,11 +4,14 @@
 #
 # @within function reizo_mcfunc_engin:asset/item/.manager/tick/run.m
 
-# クリック判定用Entityの召喚
-# TODO: 泳いでいるときの処理、攻撃した瞬間にすぐ泳ぐと立っているときの処理になるので要注意。
-execute anchored eyes positioned ^ ^ ^ run function rpg:asset/item/0002.abstract_weapon/tick/summon_click_detection
+# AttackSpeed
+    execute store result score $Item.0002.AttackChargeTime RPG.Temp run data get storage reizo_mcfunc_engin:context this.AttackChargeTime
+    execute if score @s RPG.Item.0002.AttackCharge < $Item.0002.AttackChargeTime RPG.Temp run scoreboard players add @s RPG.Item.0002.AttackCharge 1
 
 # クリックしたな！
 execute if entity @s[tag=RPG.Input.IsClicked] run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"is_clicked/_"}
+
+# お掃除
+scoreboard players reset $Item.0002.AttackChargeTime
 
 # function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"tick/_"}
