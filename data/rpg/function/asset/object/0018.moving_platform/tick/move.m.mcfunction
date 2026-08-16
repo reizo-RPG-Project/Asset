@@ -15,7 +15,6 @@ execute summon marker run data modify entity @s Rotation set from storage reizo_
 execute align xyz unless entity @a[dy=1] run return run kill @n[type=marker]
 
 # プレイヤーも動かす
-    execute store result storage reizo_mcfunc_engin:context this.pMotion double 0.4133 run data get storage reizo_mcfunc_engin:context this.Speed 10000
     execute store result score $strength hb.Motion run data get storage reizo_mcfunc_engin:context this.pMotion
     execute align xyz as @a[dy=1] rotated as @n[type=marker] run function #p_motion:looking
 
