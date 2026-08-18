@@ -14,9 +14,10 @@
     # 名前 (TextComponentsString)
     data modify storage reizo_mcfunc_engin:item Register.Name set value {"text":"植物の杖"}
     # 説明文 (TextComponentsString[])
-    data modify storage reizo_mcfunc_engin:item Register.Lore set value [{"text":"大部分が植物で構成されている杖",color:"gray",italic:0b},{"text":"日光が出ている間は光合成により力が増す",color:"gray",italic:0b}]
-    # アイテムを持っていない場合でも動作させるかどうか。 boolean型
-    data modify storage reizo_mcfunc_engin:item Register.NotHold set value 1b
+    data modify storage reizo_mcfunc_engin:item Register.Lore set value [\
+    {"text":"大部分が植物で構成されている杖",color:"gray",italic:0b},\
+    [{"text":"日光が出ている間は",color:"gray",italic:0b},{"text":"\u0004",font:"icon/effects",color:"white",italic:0b},{"text":"太陽の恵み",color:"blue",italic:0b},{"text":"が付与される。",color:"gray",italic:0b}]\
+    ]
 
 # フィールド
     # レア度
@@ -26,3 +27,5 @@
     data modify storage reizo_mcfunc_engin:item Field.INT set value 4
     # 攻撃速度
     data modify storage reizo_mcfunc_engin:item Field.AttackSpeed set value -1
+    # エフェクト
+    data modify storage reizo_mcfunc_engin:item Field.Effects append value {"ID":"0005.solar_blessing",namespace:"rpg"}
