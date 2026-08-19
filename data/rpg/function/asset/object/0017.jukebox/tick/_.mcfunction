@@ -4,6 +4,9 @@
 #
 # @within function reizo_mcfunc_engin:asset/object/.manager/tick/run.m
 
+# プレイヤーが近くにいないと動かない
+execute unless entity @p[distance=..5] run return 0
+
 # 右クリした！
 execute if data entity @s interaction.player run function rpg:asset/object/0017.jukebox/tick/get_record with entity @s interaction
 
