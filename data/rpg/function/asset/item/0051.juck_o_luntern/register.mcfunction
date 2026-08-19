@@ -26,5 +26,5 @@
     data modify storage reizo_mcfunc_engin:item Field.HP_MAX set value 5
     # 防御力
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 13
-    # 明るさレベル int型
-    data modify storage reizo_mcfunc_engin:item Field.LightLevel set value 14
+    # エフェクト
+    data modify storage reizo_mcfunc_engin:item Field.Effects append value {"ID":"0006.light_of_jucik_o_lantern",namespace:"rpg"}
