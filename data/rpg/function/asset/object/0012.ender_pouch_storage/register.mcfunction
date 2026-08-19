@@ -16,4 +16,4 @@
 
 #> フィールド
     # キルされるまでの時間 Tick
-    data modify storage reizo_mcfunc_engin:object Field.KillTime set value 2
+    data modify storage reizo_mcfunc_engin:object Field.KillTime set value 3
