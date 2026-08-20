@@ -27,4 +27,4 @@
     # 防御力
     data modify storage reizo_mcfunc_engin:item Field.DEF set value 13
     # エフェクト
-    data modify storage reizo_mcfunc_engin:item Field.Effects append value {"ID":"0006.light_of_jucik_o_lantern",namespace:"rpg"}
+    data modify storage reizo_mcfunc_engin:item Field.Effects append value {"ID":"0006.light_of_jack_o_lantern",namespace:"rpg"}
