@@ -5,7 +5,7 @@
 # @within function rpg:asset/mob/0002.abstract_enemy/in_seriously/_
 
 # ターゲットの動作
-execute at @a[tag=RPG.Mob.0002.Target] run function rpg:asset/mob/0004.thief/in_seriously_init/target
+execute at @p[gamemode=!spectator,tag=RPG.Mob.0002.Target] run function rpg:asset/mob/0004.thief/in_seriously_init/target
 
 # 演出
 particle witch ~ ~1 ~ 0.3 0.5 0.3 0 25

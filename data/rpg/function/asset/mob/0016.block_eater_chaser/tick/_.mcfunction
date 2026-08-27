@@ -15,7 +15,7 @@
     function rpg:asset/mob/0016.block_eater_chaser/tick/fx.m with storage reizo_mcfunc_engin:context this
 
 # プレイヤーが半径5マス以内にいないなら動作終了
-execute unless entity @p[distance=..10] run return 0
+execute unless entity @p[gamemode=!spectator,distance=..10] run return 0
 
 # プレイヤーの方を向く
 rotate @s facing entity @p feet

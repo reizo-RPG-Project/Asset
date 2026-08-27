@@ -5,4 +5,4 @@
 # @within function reizo_mcfunc_engin:asset/mob/.manager/tick/run.m
 
 # 近くのプレイヤーの方に向く
-execute if entity @p[distance=..6] run tp @s ~ ~ ~ facing entity @p[distance=..6]
+execute if entity @p[gamemode=!spectator,distance=..6] run tp @s ~ ~ ~ facing entity @p[gamemode=!spectator,distance=..6]

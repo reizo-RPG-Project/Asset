@@ -5,7 +5,7 @@
 # @within function rpg:asset/mob/0011.goat/tick/_
 
 # プレイヤーの方をずっと向く
-rotate @s facing entity @p[distance=..8]
+rotate @s facing entity @p[gamemode=!spectator,distance=..8]
 
 # スコアアップ
 scoreboard players add @s RPG.Mob.0011.Timer 1
