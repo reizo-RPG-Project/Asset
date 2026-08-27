@@ -1,4 +1,4 @@
-#> rpg:asset/mob/0019.mischief_fox/register
+#> rpg:asset/mob/0020.fire_fox/register
 #
 # Mobの登録処理
 #
@@ -12,9 +12,11 @@
     # 継承されることを前提とした、抽象的なMobかどうか。
     data modify storage reizo_mcfunc_engin:mob Register.IsAbstract set value 0b
     # 名前 String型
-    data modify storage reizo_mcfunc_engin:mob Register.Name set value "トリックス"
+    data modify storage reizo_mcfunc_engin:mob Register.Name set value "ファイアーフォックス"
     # アイテムを落とさないか？ boolean型
     data modify storage reizo_mcfunc_engin:mob Register.DethItem_Empty set value 1b
+    # 燃えるかどうか。 boolean型
+    data modify storage reizo_mcfunc_engin:mob Register.Flammable set value 1b
 
 # フィールド
     # HP
@@ -25,11 +27,11 @@
     data modify storage reizo_mcfunc_engin:mob Field.DEF set value 75
     # 説明文
     data modify storage reizo_mcfunc_engin:mob Field.Lore set value [\
-    {"text":"わ～かわいいキツネ...\n"},\
-    {"text":"っと見せかけてイタズラ好きのキツネです！店の物をよく取られるんですよ...\n"},\
-    {"text":"色々と不思議な事をしてくるのでホンロウされないように！"}\
+    {"text":"炎を扱うキツネです！\n"},\
+    {"text":"炎を飛ばしてきたり、なかなかに厄介です...しかし所詮はキツネ！体力が少ないのでそこを狙いましょう！\n"},\
+    {"text":"あと...ｸﾛｰﾑ種とは犬猿の仲と言われますね。なんでしょうね？ｸﾛｰﾑ種って。"}\
     ]
     # アイコンID
-    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 6
+    data modify storage reizo_mcfunc_engin:mob Field.IconID set value 7
     # vehicleData
     data modify storage reizo_mcfunc_engin:mob Field.vehicleData set value "fox"

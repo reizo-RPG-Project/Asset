@@ -44,6 +44,7 @@
             scoreboard objectives add RPG.Buff.INT dummy
         # その他
         scoreboard objectives add RPG.DMG dummy
+        scoreboard objectives add RPG.FireDMG dummy
 
 # スコア作成
     # アセット
@@ -67,6 +68,7 @@
         scoreboard objectives add RPG.Mob.0014.Talk dummy
         scoreboard objectives add RPG.Mob.0015.Timer dummy
         scoreboard objectives add RPG.Mob.0019.ShuffleTimer dummy
+        scoreboard objectives add RPG.Mob.0020.bodyRot dummy
         # Object
         scoreboard objectives add RPG.Obj.0003.In_Hostil.Delay dummy
         scoreboard objectives add RPG.Obj.0003.HP dummy

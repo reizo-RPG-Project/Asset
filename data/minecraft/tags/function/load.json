@@ -1,5 +1,4 @@
 {
-    "values": [
-        "rpg:core/load/asset"
-    ]
+	"replace": false,
+	"values": ["animated_java:global/on_load", "rpg:core/load/asset"]
 }
