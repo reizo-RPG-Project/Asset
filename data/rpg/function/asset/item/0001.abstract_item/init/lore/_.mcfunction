@@ -12,3 +12,4 @@
     execute if data storage reizo_mcfunc_engin:context this.STR run function rpg:asset/item/0001.abstract_item/init/lore/str
     execute if data storage reizo_mcfunc_engin:context this.INT run function rpg:asset/item/0001.abstract_item/init/lore/int
     execute if data storage reizo_mcfunc_engin:context this.DEF run function rpg:asset/item/0001.abstract_item/init/lore/def
+    execute if data storage reizo_mcfunc_engin:context this.SPD run function rpg:asset/item/0001.abstract_item/init/lore/spd
