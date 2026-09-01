@@ -26,6 +26,9 @@
     # INT
     execute store result score $INT RPG.Temp run data get storage reizo_mcfunc_engin:context this.INT
     scoreboard players operation @s RPG.Buff.INT += $INT RPG.Temp
+    # SPD
+    execute store result score $SPD RPG.Temp run data get storage reizo_mcfunc_engin:context this.SPD
+    scoreboard players operation @s RPG.Buff.SPD += $SPD RPG.Temp
     # お掃除
     scoreboard players reset $HP_MAX
     scoreboard players reset $HP_regen
@@ -34,6 +37,7 @@
     scoreboard players reset $DEF
     scoreboard players reset $STR
     scoreboard players reset $INT
+    scoreboard players reset $SPD
 
 
 # ステータスの更新
