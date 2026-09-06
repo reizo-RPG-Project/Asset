@@ -5,7 +5,7 @@
 # @within function rpg:asset/mob/0020.fire_fox/init/_
 
 # 親クラスのメソッドを呼ぶ
-function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/mob/super.tick
 
 # # タグツケ
 # execute on vehicle run tag @s add RPG.Mob.0020.Vehicle

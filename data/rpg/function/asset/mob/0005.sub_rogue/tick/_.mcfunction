@@ -11,4 +11,4 @@ execute on passengers if predicate rpg:asset/mob/0002/in_hostil as @n[type=evoke
 execute on passengers if predicate {condition:"entity_properties",entity:"this",predicate:{flags:{is_on_fire:true}}} run data modify entity @s Fire set value -1
 
 # 親クラス動作の呼び出し
-function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/mob/super.tick

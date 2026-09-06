@@ -14,4 +14,4 @@ execute if score @s RPG.Mob.0002.AITimer matches 100 store result score @s RPG.S
 execute if score @s RPG.Mob.0002.AITimer matches 140.. run scoreboard players reset @s RPG.Mob.0002.AITimer
 
 # 親クラス動作の呼び出し
-function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/mob/super.tick

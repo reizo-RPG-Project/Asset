@@ -8,4 +8,4 @@
 execute if entity @p[distance=..8] run function rpg:asset/mob/0011.goat/tick/in_hostile/_
 
 # 親クラスの動作を実行
-function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/mob/super.tick

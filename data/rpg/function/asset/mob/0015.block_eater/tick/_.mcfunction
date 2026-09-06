@@ -11,4 +11,4 @@ execute if score @s RPG.Mob.0015.Timer matches ..0 run function reizo_mcfunc_eng
 scoreboard players remove @s RPG.Mob.0015.Timer 1
 
 # 親クラスのメソッドを呼ぶ
-function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/mob/super.tick

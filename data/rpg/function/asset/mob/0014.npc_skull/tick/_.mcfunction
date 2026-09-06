@@ -11,4 +11,4 @@ rotate @n[type=item_display,distance=..1] ~ ~
 particle glow ~ ~-0.5 ~ 0.0 0.5 0.0 0 1 normal @a[distance=..3]
 
 # 親クラスの動作を呼び出し
-function reizo_mcfunc_engin:api/super/_.m {Type:"mob",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/mob/super.tick
