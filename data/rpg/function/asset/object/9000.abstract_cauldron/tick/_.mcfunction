@@ -4,6 +4,9 @@
 #
 # @within function reizo_mcfunc_engin:asset/object/.manager/tick/run.m
 
+# プレイヤーが近くにいないなら動かない
+execute unless entity @p[gamemode=spectator,distance=..5.5] run return 0
+
 # データが三つなら演出
 execute if data storage reizo_mcfunc_engin:context this.Items[-3] run particle electric_spark ~ ~0.5 ~ 0.5 0.5 0.5 0 1
 
