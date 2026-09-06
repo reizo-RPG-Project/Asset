@@ -8,4 +8,4 @@
 execute if data entity @s {HurtTime:10s} run function rpg:asset/item/0064.his_jacket/tick/hurt/_
 
 # 親クラスのメソッドを呼ぶ
-function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/item/super.tick

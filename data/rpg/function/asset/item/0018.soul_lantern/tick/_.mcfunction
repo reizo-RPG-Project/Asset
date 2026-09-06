@@ -14,4 +14,4 @@ execute if entity @s[tag=RPG.Death] run return run function rpg:asset/item/0018.
 tag @s add RPG.Is_Can_Revival
 
 # 親クラスの動作呼び出し
-function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/item/super.tick

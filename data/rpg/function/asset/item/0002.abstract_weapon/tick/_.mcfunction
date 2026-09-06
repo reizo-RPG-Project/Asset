@@ -11,4 +11,4 @@ execute anchored eyes positioned ^ ^ ^ run function reizo_mcfunc_engin:api/objec
 # クリックしたな！
 execute if entity @s[tag=RPG.Input.IsClicked] run function reizo_mcfunc_engin:api/call/_protected.m {Type:"item",Method:"is_clicked/_"}
 
-# function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"tick/_"}
+# function reizo_mcfunc_engin:asset/item/super.tick

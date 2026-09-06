@@ -8,4 +8,4 @@
 function reizo_mcfunc_engin:api/effect/give.m {ID:"0007.determination",namespace:"rpg"}
 
 # 親クラスのメソッドを呼ぶ
-function reizo_mcfunc_engin:api/super/_.m {Type:"item",Method:"tick/_"}
+function reizo_mcfunc_engin:asset/item/super.tick
