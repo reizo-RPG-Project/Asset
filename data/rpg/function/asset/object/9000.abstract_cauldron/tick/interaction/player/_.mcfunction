@@ -10,16 +10,20 @@ function rpg:asset/object/9000.abstract_cauldron/tick/interaction/player/get_han
 # TODO: 手に持っているアイテムのデータが特定の物だったら...とか。
 
 # データが無かったら
-execute unless data storage reizo_mcfunc_engin:context this.Interaction.ItemData run return fail
+execute unless data storage reizo_mcfunc_engin:context this.Interaction.ItemData run return run function rpg:asset/object/9000.abstract_cauldron/tick/interaction/player/fail
 
 # データをリストに追加
 data modify storage reizo_mcfunc_engin:context this.Items append from storage reizo_mcfunc_engin:context this.Interaction.ItemData
 
-# データによって演出を変更
-    execute store result score $Len RPG.Temp run data get storage reizo_mcfunc_engin:context this.Items
-    execute if score $Len RPG.Temp matches 1 run playsound block.anvil.place master @a ~ ~ ~ 0.3 1.7
-    execute if score $Len RPG.Temp matches 2 run playsound block.anvil.place master @a ~ ~ ~ 0.3 1.7
-    execute if score $Len RPG.Temp matches 3 run playsound block.anvil.place master @a ~ ~ ~ 0.3 2
+#> 演出
+    # データによって音を変更
+        execute store result score $Len RPG.Temp run data get storage reizo_mcfunc_engin:context this.Items
+        execute if score $Len RPG.Temp matches 1 run playsound block.anvil.place master @a ~ ~ ~ 0.3 1.7
+        execute if score $Len RPG.Temp matches 2 run playsound block.anvil.place master @a ~ ~ ~ 0.3 1.7
+        execute if score $Len RPG.Temp matches 3 run playsound block.anvil.place master @a ~ ~ ~ 0.3 2
+    # ナベ
+        execute as @n[tag=RPG.Obj.9000.AJ] run function aj:cauldron/animations/in/tween {to_frame:0,duration:1}
+        execute at @n[type=interaction,tag=reizo_mcfunc_Engin.Object] run particle poof ~ ~ ~ 0.5 0.5 0.5 0 10
 
 # お掃除
 scoreboard players reset $Len RPG.Temp

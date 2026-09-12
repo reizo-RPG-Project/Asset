@@ -12,10 +12,10 @@
     data remove storage reizo_mcfunc_engin:context this.RecipeCeck
 
 # 合っている場合、そのIDの名前のアイテムを出す
-function rpg:asset/object/9000.abstract_cauldron/common/give.m with storage reizo_mcfunc_engin:context this.Cook
+execute if data storage reizo_mcfunc_engin:context this.Cook.ItemID run function rpg:asset/object/9000.abstract_cauldron/cook/give
 
 # IDが無かったらアイテムを戻す
-execute unless data storage reizo_mcfunc_engin:context this.Cook.ItemID run function rpg:asset/object/9000.abstract_cauldron/common/give_back/foreach
+execute unless data storage reizo_mcfunc_engin:context this.Cook.ItemID run function rpg:asset/object/9000.abstract_cauldron/cook/fail
 
 # お掃除
     data remove storage reizo_mcfunc_engin:context this.Items

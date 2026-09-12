@@ -1,4 +1,4 @@
 {
 	"replace": false,
-	"values": ["aj:fire_fox/on_load"]
+	"values": ["aj:cauldron/on_load", "aj:fire_fox/on_load"]
 }

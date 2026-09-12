@@ -7,4 +7,6 @@
 # 焚火設置
 setblock ~ ~ ~ campfire
 
-# TODO: 見た目設置よろ
+# AJモデル設置
+    execute positioned ~ ~0.5 ~ run function aj:cauldron/summon {args:{}}
+    execute as @n[type=item_display,tag=aj.cauldron.root] run function aj:cauldron/animations/idle/play
