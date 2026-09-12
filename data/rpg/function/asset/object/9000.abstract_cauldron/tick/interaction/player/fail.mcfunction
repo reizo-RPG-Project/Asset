@@ -11,4 +11,4 @@ execute if entity @n[tag=RPG.Obj.9000.AJ,tag=aj.cauldron.animation.fail.playing]
 execute as @n[tag=RPG.Obj.9000.AJ] run function rpg:asset/object/9000.abstract_cauldron/common/fail_direction
 
 # 声掛け
-tellraw @a ["<","ナベっすぁん。","> アイテムがないヨ"]
+tellraw @a ["<",{"text":"0",font:"icon/face/0005.cauldron/_"},"ナベっすぁん。","> アイテムがないヨ"]
