@@ -4,7 +4,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID0.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID0.0\"]}"
         }
       }
     },
@@ -12,7 +12,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID0.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID0.1\"]}"
         }
       }
     },
@@ -20,7 +20,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID1.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID1.0\"]}"
         }
       }
     },
@@ -28,7 +28,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID1.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID1.1\"]}"
         }
       }
     },
@@ -36,7 +36,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID2.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID2.0\"]}"
         }
       }
     },
@@ -44,7 +44,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID2.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID2.1\"]}"
         }
       }
     },
@@ -52,7 +52,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID3.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID3.0\"]}"
         }
       }
     },
@@ -60,7 +60,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID3.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID3.1\"]}"
         }
       }
     },
@@ -68,7 +68,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID4.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID4.0\"]}"
         }
       }
     },
@@ -76,7 +76,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID4.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID4.1\"]}"
         }
       }
     },
@@ -84,7 +84,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID5.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID5.0\"]}"
         }
       }
     },
@@ -92,7 +92,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID5.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID5.1\"]}"
         }
       }
     },
@@ -100,7 +100,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID6.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID6.0\"]}"
         }
       }
     },
@@ -108,7 +108,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID6.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID6.1\"]}"
         }
       }
     },
@@ -116,7 +116,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID7.0\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID7.0\"]}"
         }
       }
     },
@@ -124,7 +124,7 @@
       "trigger": "minecraft:player_interacted_with_entity",
       "conditions": {
         "entity": {
-          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID7.1\"],data:{Registry:{Extends:[{ID:\"0007.abstract_npc\",namespace:\"rpg\"}]}}}"
+          "nbt": "{Tags:[\"reizo_mcfunc_Engin.Mob\",\"RPG.Mob.0007.ID7.1\"]}"
         }
       }
     }
