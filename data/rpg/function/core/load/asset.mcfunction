@@ -9,7 +9,9 @@
         # Sys
         scoreboard objectives add RPG.Temp dummy
         scoreboard objectives add RPG.Const dummy
-            # ステータス
+        # プレイヤー
+        scoreboard objectives add RPG.Gravitry dummy
+        # ステータス
             scoreboard objectives add RPG.HP dummy
             scoreboard objectives add RPG.HP_MAX dummy
             scoreboard objectives add RPG.OriginHP_MAX dummy
