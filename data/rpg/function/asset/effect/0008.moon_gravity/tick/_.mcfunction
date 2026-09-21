@@ -4,6 +4,11 @@
 #
 # @within function reizo_mcfunc_engin:asset/effect/.manager/tick/run.m
 
+# 演出
+    execute \
+    if predicate {condition:"random_chance",chance:0.25} run \
+    particle entity_effect{color:[0.75,0.9,0.6,1.0]} ~ ~ ~ 0.1 1.25 0.1 5 5
+
 # 親クラスのメソッドを呼ぶ
 function reizo_mcfunc_engin:api/super/_.m {Type:"effect",Method:"tick/_"}
 
