@@ -4,18 +4,11 @@
 #
 # @within function reizo_mcfunc_engin:asset/mob/.manager/tick/run.m
 
-# FX
-    # ブロック名取得
-    execute positioned ~ ~-0.5 ~ run function reizo_libs:get_block_name/_
-    # 取得したデータを移動
-    data modify storage reizo_mcfunc_engin:context this.block_name set from storage reizo_libs:_ Out[-1]
-    # お掃除
-    data remove storage reizo_libs:_ Out[-1]
-    # マクロでパーティクル表示
-    function rpg:asset/mob/0016.block_eater_chaser/tick/fx.m with storage reizo_mcfunc_engin:context this
-
 # プレイヤーが半径5マス以内にいないなら動作終了
 execute unless entity @p[gamemode=!spectator,distance=..10] run return 0
+
+# FX
+execute if predicate {condition:"random_chance",chance:0.5} run function rpg:asset/mob/0016.block_eater_chaser/tick/fx/_
 
 # プレイヤーの方を向く
 rotate @s facing entity @p feet
