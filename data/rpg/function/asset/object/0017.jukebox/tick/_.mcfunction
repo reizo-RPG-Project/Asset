@@ -4,17 +4,14 @@
 #
 # @within function reizo_mcfunc_engin:asset/object/.manager/tick/run.m
 
-# プレイヤーが近くにいないと動かない
-execute unless entity @p[distance=..5] run return 0
-
-# 右クリした！
-execute if data entity @s interaction.player run function rpg:asset/object/0017.jukebox/tick/get_record with entity @s interaction
-
-# レコード再生
-execute if data storage reizo_mcfunc_engin:context this.RecordItem run function rpg:asset/object/0017.jukebox/play/_
-
 # 再生中
 execute if data storage reizo_mcfunc_engin:context this.PlayingRecordData run function rpg:asset/object/0017.jukebox/playing/_
 
 # 入ったな！
 execute as @a[tag=reizo_mcfunc_Engin.justJoined] run function rpg:asset/object/0017.jukebox/join/_
+
+# レコード再生
+execute \
+    if entity @p[distance=..5] \
+    if data entity @s interaction.player run \
+    function rpg:asset/object/0017.jukebox/play/_
