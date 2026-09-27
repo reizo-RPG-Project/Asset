@@ -5,7 +5,7 @@
 # @within function rpg:asset/mob/0002.abstract_enemy/tick/_
 
 # Victimの動作
-execute at @a[tag=RPG.Victim] if score @s reizo_mcfunc_Engin.ScoreID = @p[distance=0] reizo_mcfunc_Engin.ScoreID run function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"victim/_"}
+execute at @a[tag=RPG.Victim] if score @s reizo_mcfunc_Engin.ScoreID = @p[distance=0] reizo_mcfunc_Engin.ScoreID run function reizo_mcfunc_engin:asset/mob/call.m {method:"victim/_"}
 
 # お掃除
 tag @s remove RPG.Attacker

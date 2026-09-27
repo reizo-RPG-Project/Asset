@@ -8,7 +8,7 @@
 execute on target run tag @s add RPG.Mob.0002.Target
 
 # メソッドの呼び出し
-function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"in_hostile/_"}
+function reizo_mcfunc_engin:asset/mob/call.m {method:"in_hostile/_"}
 
 # タグ剥奪
 execute on target run tag @s[tag=RPG.Mob.0002.Target] remove RPG.Mob.0002.Target

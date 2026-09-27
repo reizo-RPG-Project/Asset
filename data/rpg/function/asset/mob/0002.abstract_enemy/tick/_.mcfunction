@@ -11,4 +11,4 @@ execute if predicate rpg:asset/mob/0002/in_hostil run function rpg:asset/mob/000
 execute if entity @s[predicate=!rpg:asset/mob/0002/in_hostil] run scoreboard players reset @s RPG.Mob.0002.AITimer
 
 # Hitタグが付いたならヒット処理をする
-execute if entity @s[tag=RPG.Mob.0002.Hit] run function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"hit/_"}
+execute if entity @s[tag=RPG.Mob.0002.Hit] run function reizo_mcfunc_engin:asset/mob/call.m {method:"hit/_"}

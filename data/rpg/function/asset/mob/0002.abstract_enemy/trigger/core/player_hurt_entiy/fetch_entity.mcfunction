@@ -16,4 +16,4 @@ scoreboard players operation @s RPG.DMG = @p[tag=RPG.Attacker] RPG.STR
     data modify storage reizo_mcfunc_engin:context this set from entity @s data.this
 
 # Hitメソッドを実行する
-function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"hit/_"}
+function reizo_mcfunc_engin:asset/mob/call.m {method:"hit/_"}
