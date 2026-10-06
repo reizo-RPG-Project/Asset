@@ -20,4 +20,4 @@ function rpg:common/damage/blur
 scoreboard players operation @s RPG.HP -= @s RPG.DMG
 
 # おん、死んだ！
-execute if score @s RPG.HP matches ..0 run function reizo_mcfunc_engin:api/call/_protected.m {Type:"mob",Method:"remove/_"}
+execute if score @s RPG.HP matches ..0 run function reizo_mcfunc_engin:asset/mob/call.m {method:"remove/_"}
